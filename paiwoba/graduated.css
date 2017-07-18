@@ -1,0 +1,342 @@
+
+@media screen and (max-width:620px) {
+	*{ -webkit-tap-highlight-color: rgba(255,255,255,0);}
+	input[type="button"], input[type="submit"], input[type="reset"] { -webkit-appearance: none;}
+	.active-signup .warning {
+		opacity: 0;
+		display: none;
+	}
+	.active-txt {
+		  position: absolute;
+		  left: 13%;
+		  top: 12%;
+		  width: 74%;
+		  height: 80%;
+		  background: url(phone-txt.png)/*tpa=http://paiwo.co/static/images/activity/phone-txt.png*/ no-repeat;
+		  background-size: 100% auto;
+	}
+	.active-btn { bottom: 18px;}
+	.active-bottom {
+		width: 80%;
+		height: 19px;
+		margin-left: -40%;
+		background: url(phone-botttom.png)/*tpa=http://paiwo.co/static/images/activity/phone-botttom.png*/ no-repeat center center;
+		background-size: 100%;
+	}
+	/*弹窗*/
+
+	.active-shadow {
+		display: none;
+		position: absolute;
+		bottom: -74%;
+		left: 0;
+		width: 100%;
+		height: 74%;
+		min-width: 320px;
+		background: #fff;
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+		-webkit-transition: all .3s;
+		transition: all .3s;
+	}
+	.active-shadow.active-top { bottom: -48%;}
+	.active-form { 
+		-webkit-transform: translate3d(0,-100%,0);
+		transform: translate3d(0,-100%,0);
+	}
+	.active-list { margin: 10px 0 0 9%;}
+	.active-tit { width: 25%;}
+	.active-school {width: 50%;}
+	.active-name input{ width: 50%;}
+	.reduce-num,.add-num { display: none;}
+	.active-num { width: 50%;}
+	.active-num input {
+		width: 100%;
+		padding-left: 13px;
+	}
+	.active-tel input { width: 50%;}
+	.phone-warn {
+		position: absolute;
+		left: 35%;
+		top: 0;
+	}
+	.phone-warn .warning {
+		display: none;
+		position: absolute;
+		top: 0;
+		left: 35%;
+		padding: 0 14px 0 44px;
+		line-height: 40px;
+		font-size: 12px;
+		color: #dd2222;
+		background: rgba(0,0,0,.3);
+		white-space: nowrap;
+	}
+	.phone-warn .warning i { left: 18px;}
+	.phone-warn .warning-alert {
+		-webkit-animation: warn 1s forwards;
+		animation: warn 1s forwards;
+	}
+	@-webkit-keyframes warn {
+		50%{
+			-webkit-transform:translate3d(0,0,0);
+			transform:translate3d(0,0,0);
+		}
+		100%{
+			-webkit-transform:translate3d(0,-100%,0);
+			transform:translate3d(0,-100%,0);
+		}
+	}
+
+	@keyframes warn {
+		50%{
+			-webkit-transform:translate3d(0,0,0);
+			transform:translate3d(0,0,0);
+		}
+		100%{
+			-webkit-transform:translate3d(0,-100%,0);
+			transform:translate3d(0,-100%,0);
+		}
+	}
+
+}
+
+@media screen and (min-width:621px) {
+	.phone-warn { display: none;}
+	.active-main { min-height: 840px;}
+	.active-txt {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		width: 980px;
+		height: 667px;
+		margin: -330px 0 0 -490px;
+		background: url(active-txt.png)/*tpa=http://paiwo.co/static/images/activity/active-txt.png*/ no-repeat;
+		background-size: 100% auto;
+	}
+	.active-btn { bottom: 0;}
+	.active-bottom {
+		width: 615px;
+		height: 36px;
+		margin-left: -307px;
+		background: url(pc-bottom.png)/*tpa=http://paiwo.co/static/images/activity/pc-bottom.png*/ no-repeat center center;
+		background-size: 100% auto;
+	}
+
+	/*弹窗*/
+	.active-shadow { 
+		display: none;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,.3);
+	}
+	.active-signup {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		margin: -210px 0 0 -276px;
+		width: 552px;
+		height: 420px;
+		background: #fff;
+	}
+	.active-list { margin: 10px 0 0 116px;}
+	.active-tit { width: 106px;}
+	.active-school {width: 150px;}
+	.active-name input{ width: 150px;}
+	.active-signup .active-num input {
+		padding-left: 0;
+		width: 87px;
+		text-align: center;
+	}
+	.active-tel input { width: 150px;}
+	.active-school a {
+	  width: 115px;
+	  overflow: hidden;
+	  display: block;
+	  white-space: nowrap;
+	  text-overflow: ellipsis;
+	}
+	.warning {
+		display: none;
+		position: relative;
+		float: left;
+		margin-left: 20px;
+		padding-left: 30px;
+		line-height: 40px;
+		font-size: 12px;
+		color: #dd2222;
+	}
+	.warning i { left: 0;}
+}
+
+.active-main {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	min-width: 320px;
+	background: url(active-back.jpg)/*tpa=http://paiwo.co/static/images/activity/active-back.jpg*/ no-repeat center center;
+	background-size: cover;
+}
+
+.active-btn {
+	  width: 120px;
+	  height: 40px;
+	  text-align: center;
+	  line-height: 40px;
+	  font-size: 20px;
+	  background: #fff;
+	  color: #000;
+	  position: absolute;
+	  left: 50%;
+	  margin-left: -60px;
+}
+.active-copy {
+	position: absolute;
+	right: 20px;
+	bottom: 15px;
+	color: #000;
+	font-size: 12px;
+	line-height: 20px;
+}
+.active-bottom {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+}
+
+/*弹窗*/
+.active-close {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 30px;
+	height: 30px;
+	background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat -41px -942px;
+}
+.active-signup input { 
+	padding: 8px 0 8px 13px;
+	height: 22px;
+	line-height: 22px;
+}
+.active-close:hover { background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat 9px -942px;}
+.active-signup h3 {
+	width: 100%;
+	text-align: center;
+	line-height: 82px;
+	color: #434343;
+	font-size: 22px;
+}
+.active-list li:after {
+	display: block;
+	clear: both;
+	content: "";
+}
+.active-list li {
+	display: block;
+	height: 40px;
+	margin-bottom: 17px;
+}
+.active-tit {
+	float: left;
+	text-align: left;
+	line-height: 40px;
+	color: #686868;
+	font-size: 14px;
+}
+.active-school { float: left;}
+.active-school dl {
+	width: 100%;
+	border-color: #2dd888;
+}
+.active-school dd {
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.active-school dd:hover { background: #2dd888;}
+.warning i {
+	position: absolute;
+	top: 10px;
+	width: 20px;
+	height: 20px;
+	background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat -199px -699px;
+}
+.active-list input {
+	float: left;
+	border: 1px solid #dcd5d5;
+	color: #414141;
+	font-size: 14px;
+	border-radius: 2px;
+}
+.active-school { border: 1px solid #dcd5d5;}
+.active-school:hover,
+.active-list input:hover { border-color: #2dd888;}
+.active-name input{ padding-left: 13px;}
+.active-num { float: left;}
+.active-num i {
+	float: left;
+	width: 24px;
+	height: 24px;
+	margin-top: 8px;
+	background-image: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/;
+	background-repeat: no-repeat; 
+	cursor: pointer;
+}
+.reduce-num { 
+	background-position: 0px 0px;
+	margin-right: 9px;
+}
+.add-num { 
+	background-position: -50px 0px;
+	margin-left: 9px;
+}
+.active-tel input { padding-left: 13px;}
+.active-sub {
+	display: block;
+	margin: 27px auto 0;
+	text-align: center;
+	width: 106px;
+	height: 38px;
+	line-height: 38px;
+	color: #000;
+	border: 1px solid #000;
+	border-radius: 2px;
+	-webkit-transition: all .2s;
+	transition: all .2s;
+}
+.active-sub:hover {
+	border-color: #2dd888;
+	color: #2dd888;
+}
+
+.setting_succeed { 
+    width: 313px; 
+    height: 40px; 
+    position: fixed; 
+    top: -40px; 
+    left: 50%; 
+    margin-left: -156px; 
+    background-color: rgba(0,0,0,0.5); 
+    text-align: center; 
+    color: #fff; 
+    font-size: 16px; 
+    line-height: 40px;
+    z-index: 500;
+    -webkit-transform:translateY(0);
+	-ms-transform:translateY(0);
+	transform:translateY(0);
+	-webkit-transition:-webkit-transform 0.4s;
+	transition:transform 0.4s;
+}
+
+.setting_succeed.active{
+    -webkit-transform:translateY(40px);
+	-ms-transform:translateY(40px);
+	transform:translateY(40px);
+}
+
+.active-list .active-school dd:hover { background: #2dd888;}

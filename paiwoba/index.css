@@ -1,0 +1,1044 @@
+/*公共部分重置*/
+#main_box { padding-top: 0;}
+.top_tab_opa {
+ background: rgba(0,0,0,0);
+ box-shadow: none;
+}
+.top_tab_opa #tab-bephotog:hover { background: rgba(0,0,0,0);}
+.top_tab_opa .tab-login-a, .top_tab_opa .tab-regist-a { color: #fff;}
+.top_tab_opa .top-tab-logo { background-position: -100px -450px;}
+.top_tab_opa .tab-icon_myset p { color: #fff;}
+.top_tab_opa .select-arrow { border-color: #fff rgba(0,0,0,0) rgba(0,0,0,0) rgba(0,0,0,0);}
+.top_tab_opa .tab-icon1:hover { background: rgba(0,0,0,0);}
+.top_tab_opa.top-tab .tab-icon_myset:hover { background: rgba(0,0,0,0);}
+.top_tab_opa .tab-icon_search { background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/ no-repeat -738px 14px;}
+.top_tab_opa .tab-icon_file { background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/ no-repeat -688px 14px;}
+.top_tab_opa .tab-icon_myme { background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/ no-repeat -788px 14px;}
+.top_tab_opa .tab-icon_myno { background: url(bell-white.svg)/*tpa=http://paiwo.co/static/images/bell-white.svg*/ no-repeat 11px 12px;}
+.top_tab_opa .tab-icon_myme { background: url(notice-white.svg)/*tpa=http://paiwo.co/static/images/notice-white.svg*/ no-repeat center;}
+/*顶部banner start*/
+.header-banner {
+	position: relative;
+	width: 100%;
+	height: 640px;
+}
+
+.header-banner-img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	height: 640px;
+}
+.header-banner-img1,.header-banner-img2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.header-banner-img1{
+    background: url(index_banner2.jpg)/*tpa=http://paiwo.co/static/images/banner-png/index_banner2.jpg*/ no-repeat;
+	background-size: cover;
+	background-origin: content-box;
+	background-position: center;
+}
+.header-banner-img2{
+    background: url(index_banner1.jpg)/*tpa=http://paiwo.co/static/images/banner-png/index_banner1.jpg*/ no-repeat;
+	background-size: cover;
+	background-origin: content-box;
+	background-position: center;
+    animation: changebg 32s infinite;
+    -webkit-animation:changebg 32s infinite;
+}
+.header-banner-author {
+    position: absolute;
+    bottom: 20px;
+    left: 90px;
+    width: 300px;
+    height: 42px;
+    z-index: 9;
+}
+.header-banner-author1,.header-banner-author2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header-banner-author1 { 
+    opacity: 0;
+    animation: changebg2 32s infinite;
+    -webkit-animation:changebg2 32s infinite;
+}
+.header-banner-author2 {
+    animation: changebg 32s infinite;
+    -webkit-animation:changebg 32s infinite;
+}
+.header-banner-author img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+.header-banner-author span {
+    line-height: 42px;
+    color: #fff;
+    font-size: 14px;
+    margin-left: 10px;
+}
+@keyframes changebg2 {
+  0%{
+    opacity: 0;  
+    z-index: -1;
+  }46%{
+      opacity: 0;
+      z-index: -1;
+  }50%{
+      opacity: 1;
+      z-index: 1;
+  }96%{
+      opacity: 1;
+      z-index: 1;
+  }100%{
+      opacity: 0;
+      z-index: -1;
+  }    
+}
+@-webkit-keyframes changebg2 {
+  0%{
+    opacity: 0;  
+    z-index: -1;
+  }46%{
+      opacity: 0;
+      z-index: -1;
+  }50%{
+      opacity: 1;
+      z-index: 1;
+  }96%{
+      opacity: 1;
+      z-index: 1;
+  }100%{
+      opacity: 0;
+      z-index: -1;
+  } 
+}
+
+@keyframes changebg {
+  0%{
+    opacity: 1;  
+  }46%{
+      opacity: 1;
+  }50%{
+      opacity: 0;
+  }96%{
+      opacity: 0;
+  }100%{
+      opacity: 1;
+  }    
+}
+@-webkit-keyframes changebg {
+  0%{
+    opacity: 1;  
+  }46%{
+      opacity: 1;
+  }50%{
+      opacity: 0;
+  }96%{
+      opacity: 0;
+  }100%{
+      opacity: 1;
+  }  
+}
+.header-banner-shadow {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 2;
+	width: 100%;
+	height: 640px;
+	background-color: rgba(0,0,0,.1);
+}
+.header-banner-shadow i {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100px;
+	background: -webkit-linear-gradient(top, rgba(0,0,0,.4), rgba(0,0,0,0));
+	background: -linear-gradient(top, rgba(0,0,0,.4), rgba(0,0,0,0));
+}
+.header-banner-pos {
+    position: fixed;
+    top: 40px;
+    left: 50%;
+    width: 130px;
+    height: 16px;
+    margin-left: -65px;
+    background: url(banner_pos.png)/*tpa=http://paiwo.co/static/images/banner-png/banner_pos.png*/ no-repeat center;
+    background-size: 130px;
+    z-index: 30;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition:  
+    -webkit-transform 0.5s;
+    transition: transform 0.5s;
+}
+
+.header-banner-pos.active{
+  -webkit-transform:translateX(240px);
+  -ms-transform:translateX(240px);
+  transform:translateX(240px);
+}
+
+.header-banner-content {
+	position: absolute;
+	top: 205px;
+	left: 50%;
+	margin-left: -270px;
+	z-index: 3;
+	width: 540px;
+	height: 172px;
+}
+.header-banner-content h2 {
+	width: 355px;
+	height: 80px;
+	margin: 0 auto;
+	text-indent: -999em;
+	background-image: url(banner_tit.png)/*tpa=http://paiwo.co/static/images/banner-png/banner_tit.png*/;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-origin: content-box;
+}
+.header-banner-content p {
+	width: 300px;
+	height: 36px;
+	margin: 0 auto;
+	background: url(paiwo-position.png)/*tpa=http://paiwo.co/static/images/index-logo/paiwo-position.png*/ no-repeat center 8px;
+}
+
+.header-banner-cla {
+    text-align: center;
+    margin: 20px auto 0;
+}
+.header-banner-cla span {
+    display: inline-block;
+    text-align: center;
+    line-height: 22px;
+    font-size: 16px;
+    color: #fff;
+    text-shadow: 0px 0px 4px rgba(13,4,8,.15);
+}
+.header-banner-line {
+    width: 20px;
+    text-align: center;
+}
+
+.header-banner-look {
+    display: block;
+    margin: 105px auto 0;
+    width: 240px;
+    height: 48px;
+    background: rgba(0,0,0,.5);
+    text-align: center;
+    line-height: 48px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 18px;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+.header-banner-look:hover { background: rgba(0,0,0,.6)}
+.header-arrow {
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    bottom: 35px;
+    left: 50%;
+    margin-left: -23px;
+    z-index: 2;
+}
+.down-arrow {
+    display: block;
+    width: 46px;
+    height: 46px;
+    background: url(arrow.png)/*tpa=http://paiwo.co/static/images/biz/arrow.png*/ no-repeat 6px 12px;
+    background-size: 34px 19px;
+    z-index: 55;
+    animation: arrowmove 1.5s infinite ease;
+    -moz-animation: arrowmove 1.5s infinite ease;
+    -ms-animation: arrowmove 1.5s infinite ease;
+    -webkit-animation: arrowmove 1.5s infinite ease;
+    cursor: pointer;
+}
+@keyframes arrowmove {
+  0%,
+  100% { -webkit-transform:none; transform:none;}
+  60% { -webkit-transform:translateY(10px); transform:translateY(10px);}
+}
+@-webkit-keyframes arrowmove {
+  0%,
+  100% { -webkit-transform:none;}
+  60% { -webkit-transform:translateY(10px);}
+}
+/*
+.header-banner-search {
+	position: relative;
+	width: 540px;
+	height: 40px;
+	margin-top: 36px;
+	background: rgba(46,46,46,.2);
+}
+.header-banner-search input {
+	width: 470px;
+	height: 38px;
+	padding:0 54px 0 14px;
+	border: 1px solid #d8d6d0;
+	color: #eee;
+}
+*/
+/*placeholder颜色*/
+.header-banner-search input::-webkit-input-placeholder { color:#eee;}
+.header-banner-search input::-moz-placeholder { color: #eee;}
+.header-banner-search input::-input-placeholder { color:#eee;}
+
+.header-banner-seabtn {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 35px;
+	height: 27px;
+	padding: 13px 0 0 19px;
+	z-index: 3;
+}
+.header-banner-seabtn i {
+	display: block;
+	width: 16px;
+	height: 16px;
+	background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat -200px -800px;
+}
+/*顶部banner end*/
+
+
+/*公共*/
+.index-main {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.index-part-tit {
+	position: relative;
+	width: 100%;
+	font-size: 0px;
+	text-align: center;
+	color: #414141;
+	height: 86px;
+	padding-top: 64px;
+}
+.index-part-tit a {
+	display: inline-block;
+	width: 180px;
+	height: 70px;
+	background-size: 180px;
+	background-position: center; 
+	background-repeat: no-repeat;
+}
+.index-more-content {
+	display: block;
+	width: 178px;
+	height: 34px;
+	border: 1px solid #eee;
+	margin: 0 auto;
+	background: #eee;
+	text-align: center;
+	line-height: 34px;
+	font-size: 14px;
+	color: #414141;
+	border-radius: 2px;
+}
+.index-more-content:hover {
+	background-color: #fff;
+	border: 1px solid #2dd888;
+	color: #2dd888;
+}
+/*公共end*/
+
+
+/*gallery*/
+
+.index-gellery-tit a{ background-image: url(gallery-logo.png)/*tpa=http://paiwo.co/static/images/index-logo/gallery-logo.png*/;}
+.index-gallery-picshow {
+	width: 1140px;
+	overflow: hidden;
+}
+.index-gallery-picshow ul { 
+	width: 1150px;
+	height: 580px;
+	padding-bottom: 10px;
+	overflow: hidden;
+}
+.index-gallery-picshow li { 
+	position: relative;
+	float: left;
+	width: auto;
+	height: 280px;
+	margin:0 10px 10px 0;
+	cursor: pointer;
+	overflow: hidden;
+}
+.index-gallery-shadow {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 280px;
+	background: rgba(66,66,66,.7);
+	text-align: center;
+	opacity: 0;
+	-webkit-transition:opacity .3s;
+	transition:opacity .3s;
+    overflow: hidden;
+}
+
+.index-gallery-shadow span {
+	font-size: 30px;
+	color: #fefefe;
+	line-height: 280px;
+}
+/*.index-gallery-shadow:hover { opacity: 1;}*/
+.index-gallery-picshow ul li:hover .index-gallery-shadow{
+    opacity: 1;
+}
+
+.picshow_box {
+	height: 280px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.picshow_box1 { width: 420px; background-image: url(gallery11.jpg)/*tpa=http://paiwo.co/static/images/home_images/gallery11.jpg*/;}
+.picshow_box2 { width: 420px; background-image: url(gallery22.jpg)/*tpa=http://paiwo.co/static/images/home_images/gallery22.jpg*/;}
+.picshow_box3 { width: 280px; background-image: url(gallery33.jpg)/*tpa=http://paiwo.co/static/images/home_images/gallery33.jpg*/;}
+.picshow_box4 { width: 205px; background-image: url(gallery44.jpg)/*tpa=http://paiwo.co/static/images/home_images/gallery44.jpg*/;}
+.picshow_box5 { width: 205px; background-image: url(gallery55.jpg)/*tpa=http://paiwo.co/static/images/home_images/gallery55.jpg*/;}
+.picshow_box6 { width: 205px; background-image: url(gallery66.jpg)/*tpa=http://paiwo.co/static/images/home_images/gallery66.jpg*/;}
+.picshow_box7 { width: 280px; background-image: url(gallery77.jpg)/*tpa=http://paiwo.co/static/images/home_images/gallery77.jpg*/;}
+.picshow_box8 { width: 205px; background-image: url(gallery88.jpg)/*tpa=http://paiwo.co/static/images/home_images/gallery88.jpg*/;}
+
+.gallery-classify-txt { 
+  text-align: center;
+/*  margin-top: 35px;*/
+/*  padding-bottom: 4px;*/
+  margin-bottom: 30px;
+}
+.gallery-classify-txt li {
+  display: inline-block;
+  padding: 0 12px;
+  height: 18px;
+  border-left: 1px solid #b1b0aa;
+  color: #8a8880;
+  font-size: 16px;
+  line-height: 16px;
+  cursor: pointer;
+}
+
+.gallery-classify-txt li a{
+    color: #8a8880;
+}
+.gallery-classify-txt li a:hover,.gallery-classify-txt .classify-txt-cur { color: #212121;}
+
+.gallery-classify-txt li:first-child { border: none;}
+/*gallery end*/
+
+/*pagazine*/
+.index-pagazine-tit a{ background-image: url(pagazine-logo.png)/*tpa=http://paiwo.co/static/images/index-logo/pagazine-logo.png*/;}
+.index-pagazine-banner { position: relative; cursor: pointer;}
+.index-pagazine-banner .pagazine-tit-box{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    width: 600px;
+    height: 180px;
+    margin-left: -540px;
+    margin-top: -90px;
+     color: #fff;
+}
+
+.index-pagazine-banner .pagazine-list-tit{
+    line-height: 56px;
+    word-wrap: break-word;
+    font-size: 38px;
+    text-align: left;
+    margin-top: 36px;
+}
+
+
+.index-pagazine-banner .pagazine-bottom-line{
+    display: block;
+    width: 200px;
+    border-bottom: 1px dashed #fff;
+}
+
+.index-pagazine-banner .pagazine-tit-auth{
+    height: 50px;
+    line-height: 50px;
+}
+
+
+.pagazine-bigpic {
+	width: 1140px;
+	height: 500px;	
+	background-image: url(22801001.jpg)/*tpa=http://paiwo.co/static/images/index_banner/22801001.jpg*/;
+    background-repeat: no-repeat;
+	background-size: cover; 
+}
+.pagazine-banner-content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 500px;
+    background: rgba(0,0,0,.2)
+}
+
+.index-pagazine-list {
+	width: 1140px;
+	overflow: hidden;
+}
+.index-pagazine-list ul { 
+	width: 1150px;
+	padding-bottom: 20px;
+}
+.index-pagazine-list li {
+	position: relative;
+	float: left;
+	width: 373px;
+	height: 180px;
+	margin: 10px 10px 0 0;
+}
+
+.index-pagazine-list li .pagazine-list-tit{
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    width: 340px;
+    height: 66px;
+    line-height: 32px;
+    font-size: 22px;
+    color: #fff;
+    word-wrap:break-word;
+    margin-left: -170px;
+    margin-top: -24px;
+}
+
+
+.pagazine-list {
+	width: 373px;
+	height: 180px;
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-position: center;
+	cursor: pointer;
+}
+.pagazine-list1 { background-image: url(pagazine1.jpg)/*tpa=http://paiwo.co/static/images/home_images/pagazine1.jpg*/;}
+.pagazine-list2 { background-image: url(pagazine2.jpg)/*tpa=http://paiwo.co/static/images/home_images/pagazine2.jpg*/;}
+.pagazine-list3 { background-image: url(pagazine3.jpg)/*tpa=http://paiwo.co/static/images/home_images/pagazine3.jpg*/;}
+.pagazine-list-shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 373px;
+	height: 180px;
+    background: rgba(0,0,0,.2);
+}
+/*pagazine end*/
+
+
+/*photographers*/
+.index-phers-tit a{ background-image: url(pher-logo.png)/*tpa=http://paiwo.co/static/images/index-logo/pher-logo.png*/; cursor: default;}
+.phers-box {
+	margin: 0 auto 20px auto;
+    width: 1134px;
+    height: 218px;
+    overflow: hidden;
+    position: relative;
+}
+.phers-box-div { width: 20000px; position: absolute;}
+.index-phers-list { width: 1134px; float: left;}
+.index-phers-list li {
+	float: left;
+	width: 226px;
+	height: 218px;
+	border-right: 1px solid #d8d6d0;
+	text-align: center;
+}
+.index-phers-list li:last-child { border-right: none;}
+.phers-li-a {
+	width: 120px;
+	height: 120px;
+	display: block;
+	margin: 0 auto;
+}
+.index-phers-head {
+	position: relative;
+	width: 120px;
+	height: 120px;
+	margin: 10px auto 0;
+}
+.index-phers-head img {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.index-phers-head i {
+	position: absolute;
+	right: -25px;
+	top: -10px;
+	width: 50px;
+	height: 50px;
+}
+#most_popu_ul .index-phers-head i { background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/ no-repeat -450px -300px;}
+#most_acti_ul .index-phers-head i { background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/ no-repeat -500px -350px;} 
+#most_file_ul .index-phers-head i { background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/ no-repeat -500px -300px;}  
+.pers-name {
+	width: auto;
+	display: inline-block;
+	color: #212121;
+	font-size: 16px;
+	line-height: 50px;
+	text-align: center;
+	cursor: pointer;
+	font-weight: bold;
+}
+.index-phers-list p {
+	width: 190px;
+	height: 48px;
+	margin: 0 auto;
+	font-size: 14px;
+	line-height: 24px;
+	color: #414141;
+	overflow: hidden;
+	text-align: center;
+}
+.index-phers-motto {
+	display: block;
+	width: 190px;
+	margin: 0 auto;
+	font-size: 12px;
+	color: #8a8880;
+	line-height: 30px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	text-align: center;
+}
+.phers-tab { 
+	text-align: center;
+	margin-bottom: 23px;
+}
+.phers-tab a {
+	font-size: 18px;
+	color: #8a8880;
+}
+.phers-tab a.active {
+  color: #212121;
+}
+.phers-tab a:hover { color: #212121;}
+.phers-tab .most-active {
+	padding: 0 34px;
+	margin: 0 27px;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee; 
+}
+.index-phers .photog_add { text-align: center;}
+.photog_add,
+.photog_added_2,
+.photog_added_4 {
+  display: block;
+  width: 78px;
+  height: 28px;
+  border: 1px solid #dfddd8;
+  color: #414141;
+  font-size: 12px;
+  text-align: left;
+  line-height: 28px;
+  background-color: #fff;
+  margin: 0 auto;
+    text-align: center;
+}
+.photog_add:hover { border-color: #414141;}
+.photog_add i {
+  float: left;
+  width: 7px;
+  height: 7px;
+  margin: 7px 0 0 10px;
+  background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/ no-repeat 0px -250px;
+}
+.photog_added_4 i{
+  float: left;
+  width: 10px;
+  height: 8px;
+  margin: 10px 0 0 10px;
+  background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/ no-repeat -150px -250px;
+}
+.photog_added_2 i {
+  float: left;
+  width: 10px;
+  height: 10px;
+  margin: 10px -10px 0 10px;
+  background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/ no-repeat -100px -250px;
+}
+.index-circle {
+  width: 90px;
+  height: 10px;
+  margin: 0 auto;
+}
+.index-circle i {
+  float: left;
+  width: 8px;
+  height: 8px;
+  border: 1px solid #b6b3aa;
+  margin-right: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.index-circle i:hover { background-color: #b6b3aa}
+.index-circle .index-circle-cur { border-color: #414141; background-color: #414141;}
+.index-circle .index-circle-cur:hover { background-color: #414141;}
+.index-circle .index-circle-last { margin-right: 0;}
+/*photographers end*/
+
+/*events*/
+.index-events-tit a { background-image: url(event-logo.png)/*tpa=http://paiwo.co/static/images/index-logo/event-logo.png*/;}
+.index-events-list { 
+	width: 1140px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.index-events-list ul { width: 1150px;}
+.index-events-list li {
+	float: left;
+	width: 277px;
+	height: 470px;
+	margin-right: 10px;
+}
+.activity-list {
+	width: 275px;
+	height: 360px;
+	background-size: cover;
+	border: 1px solid #eee;
+}
+.activity-list1 { background-image: url(activity1.jpg)/*tpa=http://paiwo.co/static/images/home_images/activity1.jpg*/;}
+.activity-list2 { background-image: url(activity2.jpg)/*tpa=http://paiwo.co/static/images/home_images/activity2.jpg*/;}
+.activity-list3 { background-image: url(activity3.jpg)/*tpa=http://paiwo.co/static/images/home_images/activity3.jpg*/;}
+.activity-list4 { background-image: url(activity4.jpg)/*tpa=http://paiwo.co/static/images/home_images/activity4.jpg*/;}
+.activity-list5 { background-image: url(activity5.jpg)/*tpa=http://paiwo.co/static/images/home_images/activity5.jpg*/;}
+.events-list-card {
+	width: 235px;
+	height: 107px;
+	padding: 0 20px;
+}
+.events-list-card h3 {
+	color: #414141;
+	font-size: 16px;
+	line-height: 24px;
+	height: 24px;
+	overflow: hidden;
+	padding-top: 18px;
+	text-align: center;
+}
+.events-list-card span {
+	font-size: 14px;
+	color: #8a8880;
+	line-height: 44px;
+	letter-spacing: 2px;
+	display: inline-block;
+	text-align: center;
+    width: 100%;
+}
+
+/*bazzar*/
+.index-bazzar-tit a{ background-image: url(bazaar-logo.png)/*tpa=http://paiwo.co/static/images/index-logo/bazaar-logo.png*/;}
+.bazzar-demand-btn a {
+	font-size: 14px;
+	color:  #fff;
+	line-height: 40px;
+}
+.index-bazzar-phers { 
+	position: relative;
+	padding-top: 14px;
+	margin-top: 30px;
+}
+.index-bazzar-phers h3 {
+	position: absolute;
+	top: -14px;
+	left: 0;
+	font-size: 14px;
+	line-height: 14px;
+	color:  #b6b3aa;
+}
+.index-bazzar-phers ul { width: 1150px; margin-bottom: 15px;}
+.index-bazzar-phers li {
+	position: relative;
+	float: left;
+	width: 277px;
+	height: 200px;
+	margin: 0 10px 10px 0;
+	background-size: cover; 
+}
+.bazzar-phers-shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 200px;
+	background: rgba(65,65,65,.3);
+	z-index: 1;
+}
+.bazzar-phers-main {
+	position: absolute;
+	top: 27px;
+	left: 0;
+	z-index: 2;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+}
+.bazzar-phers-main h4 {
+	width: 200px;
+	padding-top: 7px;
+	line-height: 26px;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.bazzar-phers-main p {
+	line-height: 22px;
+}
+.bazzar-phers-connect {
+	position: relative;
+	display: block;
+	width: 60px;
+	height: 24px;
+	margin: 8px auto 0;
+	padding-left: 30px;
+	font-size: 12px;
+	line-height: 24px;
+	color: #414141;
+	border: 1px solid #fff;
+	background-color: #fff;
+	border-radius: 10px;
+	display: none;
+	transition: all .3s;
+  	-webkit-transition: all .3s;
+  	-moz-transition: all .3s;
+  	-ms-transition: all .3s;
+}
+.bazzar-phers-connect:hover { background-color: #fff1f2; color: #ff475c; border-color: #ff475c;}
+.bazzar-phers-connect i {
+	position: absolute;
+	left: 14px;
+	top: 5px;
+	width: 17px;
+  	height: 15px;
+  	background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat -49px -199px;
+}
+.bazzar-phers-connect:hover i {background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/ no-repeat -899px 1px;}
+/*bazzar end*/
+
+/*banner*/
+.banner_box_form {
+   width: 382px;
+   margin: 0 auto;
+   position: relative;
+   z-index: 11;
+}
+.banner_box_buttons li {
+  width: 118px;
+  padding-left: 10px;
+  height: 38px;
+  line-height: 40px;
+  border: 1px solid #eee;
+  float: left;
+  border-radius: 2px;
+  font-size: 14px;
+  color: #8a8880;
+  margin-right: 4px;
+  position: relative;
+  cursor: pointer;
+}
+.banner_box .banner_box_buttons li:child-nth(4n) { 
+  margin-right: 0;
+  width: 110px;
+}
+.banner_box_buttons li i {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: #b6b3aa transparent transparent;
+  border-width: 6px;
+  border-style: solid;
+  top: 18px;
+  right: 10px;
+  -webkit-transition:all .2s ease-in;
+  transition:all .2s ease-in;
+  -webkit-transform:rotate(0deg);
+  -ms-transform:rotate(0deg);
+  transform:rotate(0deg);
+  -webkit-transform-origin: 4px 2px;
+  -moz-transform-origin: 4px 2px;
+  -ms-transform-origin: 4px 2px;
+}
+.banner_box_buttons li i.active {
+  -webkit-transform:rotate(-180deg);
+  -ms-transform:rotate(-180deg);
+  transform:rotate(-180deg);
+}
+.banner_box_buttons li input {
+  position: absolute;
+  font-size: 14px;
+  color: #8a8880;
+  width: 110px;
+  height: 14px; 
+  line-height: 19px;
+  padding: 12px 0;
+}
+.banner_submit {
+  width: 110px;
+  height: 40px;
+  float: left;
+  border-radius: 2px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+.banner_submit:hover,
+.submit:hover { background: #2dd888;}
+.banner_select,
+.banner_select_area {
+  width: 128px;
+  padding-top: 4px;
+  border: 1px solid #dcdad5;
+  border-radius: 2px;
+  position: absolute;
+  top: 44px;
+  left: -1px;
+  display: none;
+  overflow: hidden;
+  background: #fff; 
+}
+.banner_select_time { height: 115px;}
+.banner_select dd,.banner_select_area dd {
+  height: 26px;
+  line-height: 26px;
+  padding-left: 12px;
+  color: #8a8880;
+  cursor: pointer; 
+}
+.banner_select dd:hover,
+.banner_select_area dd:hover{ color: #414141;}
+
+/**********banner部分结束***********/
+.yue-photog-libox {
+  width: 280px;
+  height: 200px;
+  margin: 0 22px 23px 0;
+  float: left;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  transition: border .25s linear;
+  -webkit-transition: border .25s linear;
+  -moz-transition: border .25s linear;
+  -ms-transition: border .25s linear;
+}
+.yue-photog-libox:hover { border-color: #ff475c;}
+.footPhotog-ul li:nth-child(4n) { margin-right: 0;}
+.photog-libox-head {
+  width: 280px;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.footPhotog-bacpic { 
+	position: absolute;
+	width: 280px;
+  top: 25px;
+  left: 50%;
+  margin-left: -140px;
+}
+.photog-libox-head>span {
+	width: 280px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background:rgba(65,65,65,.4);
+}
+.photog-libox-head>img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 280px;
+	height: 100%;
+	/*filter: blur(6px);
+	-webkit-filter: blur(6px);
+	-moz-filter: blur(6px);
+	-ms-filter: blur(6px);
+	filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=6, MakeShadow=false); /* IE6~IE9 */
+	overflow: hidden;
+}
+.figure { text-align: center; height: 180px;}
+.photog-libox-head .figure img { position: static;}
+.photog-libox-head .figure figcaption { padding: 10px 0 0 0; margin-bottom: 5px; height: auto; text-align: center;}
+.photog-libox-head .figure>p { text-align: center; color: #fff;}
+.photog-libox-head .figure>p span:nth-child(1) { margin-right: 10px;}
+.figure img {
+	position: absolute;
+  left: 20px;
+  top: 17px;
+  width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	overflow: hidden;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.figure figcaption {
+	height: 60px;
+  text-align: left;
+  padding: 32px 0 0 97px;
+}
+.footPhotog2-place span { font-size: 12px;}
+.footPhotog2-place span:nth-child(1) { margin-right: 12px;}
+.figure>p { color: #b6b3ad; font-size: 12px; padding: 0 10px 0 20px; line-height: 14px; text-align: left;}
+.footPhotog-bacpic .figure>p { padding-right: 20px;}
+.figure>span { color: #b6b3ad; padding-left: 20px; text-align: left; display: block;}
+.figure>span i { color: #414141; font-size: 16px; margin-left: 20px;}
+.yue-button {
+  position: absolute;
+  bottom: 22px;
+  left: 50%;
+  margin-left: -51px;
+	width: 100px;
+	height: 24px;
+  line-height: 24px;
+  border: 1px solid #fff;
+  border-radius: 24px;
+	font-size: 12px;
+	background-color: #fff;
+	cursor: pointer;
+  color: #b6b3aa;
+}
+.yue-button:hover { background-color: #fff1f2; color: #ff475c; border-color: #ff475c;}
+.yue-button-i { background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat -50px -200px;}
+.yue-button-ihover { background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/ no-repeat -900px 0;}
+.yue-button i {
+  display: inline-block;
+  width: 15px;
+  height: 13px;
+  vertical-align: top;
+  margin: 5px 5px 0 5px;
+}

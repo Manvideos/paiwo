@@ -1,0 +1,333 @@
+#main_box{ padding-top: 40px; background: #fff;}
+/*分类*/
+.gallery-header { width: 100%}
+.gallery-tit { 
+  height: 90px;
+  padding-top: 85px;
+  margin-bottom: 15px;
+}
+.gallery-tit a {
+  display: block;
+  font-size: 0px;
+  width: 200px;
+  height: 90px;
+  margin: 0 auto;
+  background: url(gallery-logo-1.png)/*tpa=http://paiwo.co/static/images/gallery/gallery-logo.png*/ no-repeat center 0;
+  background-size: 130px 90px;
+}
+.gallery-classify-txt { 
+  text-align: center;
+  margin-top: 35px;
+  padding-bottom: 4px;
+}
+.gallery-classify-txt li {
+  display: inline-block;
+  padding: 0 12px;
+  height: 18px;
+  border-left: 1px solid #b1b0aa;
+  color: #8a8880;
+  font-size: 16px;
+  line-height: 16px;
+  cursor: pointer;
+}
+.gallery-classify-txt li:hover,.gallery-classify-txt .classify-txt-cur { color: #212121;}
+.gallery-classify-txt li:first-child { border: none;}
+
+.gallery-classify-pic {
+  width: 95%;
+  height: 80px;
+  min-width: 1184px;
+  max-width: 1480px;
+  margin: 0 auto 16px;
+  text-align: center;
+  overflow: hidden;
+  font-size: 0;
+  padding-top: 48px;
+}
+.gallery-classify-pic dl { display: none;}
+.gallery-classify-pic li {
+  display: inline-block;
+  width: 280px;
+  margin: 0 8px;
+}
+.gallery-classify-pic li:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+.gallery-classify-pic a {
+  position: relative;
+  float: left;
+  width: 134px;
+  height: 80px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 80px;
+  text-align: center;
+  background-size: cover;
+  border-radius: 3px;
+}
+.gallery-classify-pic a:nth-child(2n){ margin-left: 12px;}
+
+.classify-pic-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  font-weight: bold;
+  background: rgba(65,65,65,.3);
+  text-shadow: 0px 0px 4px rgba(13,4,9,.4);
+}
+.gallery-classify-part1 { background: url(portrait.jpg)/*tpa=http://paiwo.co/static/images/gallery/portrait.jpg*/ no-repeat;}
+
+.gallery-classify-part2 { background: url(kid.jpg)/*tpa=http://paiwo.co/static/images/gallery/kid.jpg*/ no-repeat;}
+
+.gallery-classify-part3 { background: url(black_white.jpg)/*tpa=http://paiwo.co/static/images/gallery/black_white.jpg*/ no-repeat;}
+
+.gallery-classify-part4 { background: url(retro.jpg)/*tpa=http://paiwo.co/static/images/gallery/retro.jpg*/ no-repeat;}
+
+.gallery-classify-part5 { background: url(chinese_style.jpg)/*tpa=http://paiwo.co/static/images/gallery/chinese_style.jpg*/ no-repeat;}
+
+.gallery-classify-part6 { background: url(japan_style.jpg)/*tpa=http://paiwo.co/static/images/gallery/japan_style.jpg*/ no-repeat;}
+
+.gallery-classify-part7 { background: url(street.jpg)/*tpa=http://paiwo.co/static/images/gallery/street.jpg*/ no-repeat;}
+
+.gallery-classify-part8 { background: url(emotion.jpg)/*tpa=http://paiwo.co/static/images/gallery/emotion.jpg*/ no-repeat;}
+
+.gallery-classify-part9 { background: url(landscape.jpg)/*tpa=http://paiwo.co/static/images/gallery/landscape.jpg*/ no-repeat;}
+
+.gallery-classify-part10 { background: url(stilllife.jpg)/*tpa=http://paiwo.co/static/images/gallery/stilllife.jpg*/ no-repeat;}
+
+.gallery-classify-pic i,.gallery-classify-hover {
+  position: absolute;
+  top: -13px;
+  left: 59px;
+  display: none;
+  width: 0;
+  height: 0;
+  border-width: 8px 8px 0 8px;
+  border-style: solid;
+}
+.gallery-classify-pic i {
+  border-color: #414141 #fff #fff;
+}
+.gallery-classify-hover { 
+  border-color: #d8d6d0 #fff #fff;
+}
+/*banner*/
+.banner_box {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  margin-bottom: 30px;
+}
+.banner_box_logo {
+  width: 223px;
+  height: 25px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  margin-left: -111px;
+  background: url(bannerlogo.png)/*tpa=http://paiwo.co/static/images/banner-png/bannerlogo.png*/ no-repeat;
+  background-size: 223px 25px;
+  z-index: 5;
+  text-indent: -999px;
+  overflow: hidden;
+}
+.banner_box_bp { 
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  background-image:url(banner_bp.jpg)/*tpa=http://paiwo.co/static/images/banner-png/banner_bp.jpg*/;
+  background-size: cover;
+  background-position: center; 
+  background-origin:content-box;
+}
+.banner_box_text {
+  position: absolute;
+  top: 184px;
+  width: 100%;
+  height: 172px;
+  text-align: center; 
+  z-index: 5;
+}
+.banner_box_form {
+	position: absolute;
+	left: 50%;
+	bottom: 150px;
+	width: 512px;
+	height: 40px;
+	margin-left: -256px;
+}
+.banner_box_text h2 {
+  height: 55px;
+  width: 550px;
+  margin: 0 auto;
+  background-size: 550px 55px;
+  background-image: url(banner_text.png)/*tpa=http://paiwo.co/static/images/banner-png/banner_text.png*/;
+  background-repeat: no-repeat; 
+  text-indent: -9999em;
+  margin-bottom: 44px; 
+}
+.banner_box_text h3 {
+  width: 190px;
+  height: 44px;
+  font-size: 0;
+  background-image: url(banner_adv.png)/*tpa=http://paiwo.co/static/images/banner-png/banner_adv.png*/;
+  background-size: 190px 44px;
+  margin: 0 auto;
+}
+.banner_box_buttons li {
+  width: 118px;
+  padding-left: 10px;
+  height: 38px;
+  line-height: 40px;
+  border: 1px solid #eee;
+  float: left;
+  border-radius: 2px;
+  font-size: 14px;
+  color: #b6b3ad;
+  margin-right: 4px;
+  position: relative;
+  cursor: pointer;
+  background-color: rgba(0,0,0,.3);
+}
+.banner_box .banner_box_buttons li:child-nth(4n) { 
+  margin-right: 0;
+  width: 110px;
+}
+.banner_box_buttons li i {
+  position: absolute;
+  width: 10px;
+  height: 5px;
+  top: 18px;
+  right: 10px;
+  background: url("spirit.svg")/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat scroll -200px -2150px rgba(0, 0, 0, 0);
+  -webkit-transition:all .2s ease-in;
+  transition:all .2s ease-in;
+  -webkit-transform:rotate(0deg);
+  -ms-transform:rotate(0deg);
+  transform:rotate(0deg);
+}
+.banner_box_buttons li i.active {
+  -webkit-transform:rotate(-180deg);
+  -ms-transform:rotate(-180deg);
+  transform:rotate(-180deg);
+}
+.banner_box_buttons li input {
+  position: absolute;
+  font-size: 14px;
+  color: #eee;
+  width: 110px;
+  height: 14px; 
+  line-height: 19px;
+  padding: 12px 0;
+}
+.banner_submit {
+  width: 110px;
+  height: 40px;
+  float: left;
+  background: #ff475c;
+  border-radius: 2px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+.submit:hover { background: #ea6070;}
+.banner_select,
+.banner_select_area {
+  width: 128px;
+  height: 134px;
+  padding-top: 4px;
+  border: 1px solid #eee;
+  border-radius: 2px;
+  position: absolute;
+  top: 44px;
+  left: -1px;
+  display: none;
+  overflow: hidden;
+  background-color: rgba(0,0,0,.3); 
+}
+.banner_select_time { height: 115px;}
+.banner_select dd,.banner_select_area dd {
+  height: 26px;
+  line-height: 26px;
+  padding-left: 12px;
+  color: #b6b3ad;
+  cursor: pointer; 
+}
+.banner_select dd:hover,
+.banner_select_area dd:hover{ color: #fefefe;}
+
+/*画廊页content*/
+.main_content { height: 100%; min-height: 650px;}
+.photos_box {   
+  width: 100%;
+  min-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 5;
+}
+.photos-list {   
+  width: 95%;
+  min-width: 1184px;
+  max-width: 1480px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0;
+  height: 100%;
+  text-align: center;
+}
+.photos-list div { 
+  position: relative;
+  display: inline-block;
+  width: 280px;
+  height: 280px;
+  margin: 0 8px 16px 8px;
+  overflow: hidden;
+}
+.photo {
+  display: block;
+  width: 280px;
+  height: 280px;
+  border-radius: 3px;
+  overflow: hidden;
+  background: #d8d6d0;
+}
+.photo_fixbox a {
+  color: #b6b3ad;
+  padding-left: 10px;
+  float: left;
+}
+/*浏览器版本升级提醒*/
+.update_notice {width:100%; height: 30px; line-height: 30px; text-align: center; background: #ffe984;position: fixed; left: 0; top: 40px; font-size: 14px; display: none; color: #000; z-index: 10;}
+.update_notice .new_browser { color: #ff0e2a;}
+.update_notice .new_browser:hover { text-decoration: underline;}
+.update_notice .notice_close { display: inline-block;width: 16px; height: 16px; line-height: 16px; color: #ccc; border: 1px solid #ccc; cursor: pointer;margin-left: 40px; font-size: 14px;}
+/*图片加载*/
+.loading {
+	width: 100%;
+	height: 30px;
+	padding-top: 30px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 20px;
+	display: none;
+}
+.store_back {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 150;
+  display: none
+}
+
+
+
+

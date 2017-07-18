@@ -1,0 +1,144 @@
+html,body{
+  -moz-user-select:none;
+  -webkit-user-select:none;
+  -ms-user-select:none;
+  -khtml-user-select:none;
+  user-select:none;
+ }
+#main_box{ padding-top: 40px;}
+.active-main {
+	width: 1190px;
+	margin: 0 auto;
+}
+.active-banner {
+	width: 1190px;
+	height: 640px;
+	/*background-image: url(/static/images/activity/banner.jpg);*/
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.active-list {
+	position: relative;
+	width: 710px;
+	margin: 30px auto 0;
+	padding-bottom: 18px;
+}
+.studio-trend-area { 
+	width: 710px; 
+	height: 240px;
+	margin-bottom: 28px;
+}
+.studio-active-img {
+  float: left;
+  width: 240px;
+  height: 240px;
+  background-image: url(banner.jpg)/*tpa=http://paiwo.co/static/images/activity/banner.jpg*/;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+.studio-active-detail {
+  float: left;
+  width: 230px;
+  height: 170px;
+  padding: 44px 119px 24px 119px;
+  border: 1px solid #eee;
+  background: #fafafa;
+  text-align: center;
+}
+.studio-active-detail h3 {
+  width: 320px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 16px;
+  line-height: 50px;
+  color: #414141;
+  margin-left: -45px;
+  /*border-bottom: 1px solid #d8d6d0;*/
+}
+.studio-active-time {
+  font-size: 12px;
+  line-height: 24px;
+  padding: 10px 0 20px;
+  border-top: 1px solid #d8d6d0;
+}
+.studio-active-time span { color: #8a8880;}
+.studio-active-time i { color: #414141;}
+.studio-active-cond {
+  position: relative;
+  display: inline-block;
+  line-height: 24px;
+  padding-left: 20px;
+  font-size: 12px;
+}
+.studio-active-will { color: #8a8880;}
+.studio-active-ing { color: #2dd888;}
+.studio-active-cond i { 
+  position: absolute;
+  left: 1px;
+  top: 5px;
+  width: 14px;
+  height: 14px;
+  background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/ -299px -349px no-repeat;
+}
+.studio-look { 
+  width: 100px;
+  height: 32px;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.studio-look a{
+  height: 32px;
+  line-height: 32px;
+  display: block;
+  color: #fff;
+}
+
+/*Ò³Âë*/
+.page {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.page-in {
+  display: inline-block;
+}
+.page .page-pre {
+  border-right: 1px solid #d8d6d0;
+  cursor: pointer;
+  padding-right: 24px;
+}
+.page a, .page span {
+  display: inline-block;
+  font-size: 12px;
+  color: #414141;
+  line-height: 20px;
+  padding: 0 9px;
+  margin-right: 8px;
+}
+.page .page-next {
+  border-left: 1px solid #d8d6d0;
+  cursor: pointer;
+  padding-left: 24px;
+}
+.page-no {
+  display: inline-block;
+}
+.page .page-cur {
+  background: #eee;
+}
+
+/*ËÑË÷¿ò*/
+.search-active {
+	position: relative;
+	width: 408px;
+	margin: 44px auto 0;
+	background: #f2f2f2;
+	border: 1px solid #d6d8d0;
+}
+.search-active .search-mag { top: 0;}

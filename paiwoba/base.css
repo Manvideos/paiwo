@@ -1,0 +1,226 @@
+/********paiwo css base********/
+
+/*字体大小 颜色统一*/
+h2,h3,h4 { text-align: center;}
+h2 { font-size: 24px;} /*最大标题*/
+h3 { font-size: 18px;}
+h4 { font-size: 14px;} /*小标题*/
+h5 { font-size: 12px; color: #8a8880;} /*标题描述性文字*/
+em { font-size: 14px; color: #dd2222;} /*红色重要性文字*/
+
+/*普通输入框*/
+.Tinput { height: 18px; line-height: 18px; padding: 11px 0 11px 13px; border: 1px solid #b6b3aa; border-radius: 2px;}
+.Tinput_witherror:hover,
+.Tinput:hover { border: 1px solid #ff475c;}
+
+/*带错误提示输入框*/
+/*
+  <div class="Tinputbox_witherror">
+    <input class="Tinput_witherror"></input>
+    <p><i></i><span></span></p>
+  </div>
+*/
+.Tinputbox_witherror { position: relative;}  /*div*/
+.Tinput_witherror { height: 14px; padding: 13px 0 13px; float: left; margin-right: 40px; border: 1px solid #b6b3aa; border-radius: 2px;}
+.Tinput_erroricon { height: 40px; line-height: 40px;}
+.Tinput_erroricon i { display: block; width: 18px; height: 18px; background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat -200px -700px; float: left; margin-right: 10px;}
+.Tinput_erroricon span { color: #dd2222; float: left;}
+
+/*单选框*/
+/*
+  <div class="radio">
+    <a><i></i><a>
+    <u></u>
+  </div>
+*/
+.radio { float: left; width: 50px; height: 40px; margin: 0 7px; text-align: center; line-height: 40px; position: relative;}
+.radio a { position: absolute; top: 9px; left: -8px; width: 20px; height: 20px; border-radius: 11px; border: 1px solid #8a8880; background: #fff; cursor: pointer; margin-right: 5px;}
+.radio a i { position: absolute; top: 5px; left: 5px; width: 10px; height: 10px; border-radius: 5px; background: #212121;}
+.checkbox u { line-height: 16px; height: 16px; float: left;}
+
+/*复选框*/
+/*
+  <div class="checkbox">
+    <a><i></i></a>
+    <u></u>
+  </div>
+*/
+.checkbox { margin-right: 20px; float: left; cursor: pointer;}
+.checkbox a { width: 14px; height: 14px; border: 1px solid #8a8880; border-radius: 2px; float: left; position: relative; margin-right: 8px;}
+.checkbox a i { position: absolute; left: 0; width: 16px; height: 16px; background: url("spirit.svg")/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat scroll -159px -1297px; display: none;}
+.checkbox u { line-height: 16px; height: 16px; float: left;}
+
+/*按钮*/
+.gray_submit,
+.submit,
+.cancel { display: block; width: 80px; height: 40px; margin: 0 auto; font-size: 16px; border-radius: 2px; cursor: pointer; 
+  transition: background 0.3s; 
+  -moz-transition: background 0.3s; 
+  -webkit-transition: background 0.3s; 
+  -ms-transition: background 0.3s;
+}
+.Ssubmit,
+.submit {  width: 80px; height: 40px;  background: #414141; color: #fff;}
+.Ssubmit:hover,
+.submit:hover { background: #2dd888;}
+.cancel { color: #414141; background: #fff; border: 1px solid #d8d6d0;}
+.Scancel:hover,
+.cancel:hover { background: #eee; border-color: #eee;}
+.gray_submit { background: #b6b3aa; color: #fff; margin-right: 14px;}
+.Scancel,
+.Ssubmit { display: block; margin: 0 auto; width: 80px; height: 30px; font-size: 12px; border-radius: 2px; cursor: pointer; 
+  transition: background 0.3s; 
+  -moz-transition: background 0.3s; 
+  -webkit-transition: background 0.3s; 
+  -ms-transition: background 0.3s;
+}
+/*下拉菜单*/
+/*
+  <div class="select">
+    <a></a>
+    <dl>
+      <dd></dd>
+    </dl>
+  </div>
+*/
+.select { float: left; padding-left: 13px; height: 38px; line-height: 38px; border: 1px solid #b6b3aa;  border-radius: 2px; text-align: left; cursor: pointer; position: relative; color: #b6b3aa;}
+.select a { height: 40px; line-height: 40px;}
+.textarea:hover,
+.select:hover { border: 1px solid #ff475c; }
+.select:after { position: absolute; width: 0; height: 0; top: 18px; right: 14px; border-color: #b6b3aa #fff #fff; border-style: solid; border-width: 6px; content: "";}
+.select dl { position: absolute; max-height: 160px; left: -1px; top: 38px; border: 1px solid #ff475c; border-radius: 2px; background: #fff; z-index: 5; overflow-y: auto; display: none; color: #414141;}
+.select dl dd { cursor: pointer; height: 40px; line-height: 40px; padding: 0 13px; width: auto;}
+.select dl dd:hover { color: #fff; background: #ff475c;}
+
+/*多行文本框*/
+.textarea { font-smoothing: antialiased; -moz-font-smoothing: antialiased; -ms-font-smoothing: antialiased; -webkit-font-smoothing: antialiased; font-family: "Hiragino Sans GB","Microsoft YaHei","微软雅黑",tahoma,arial,"宋体"; border: 1px solid #b6b3aa; resize: none; padding: 13px 0 0 13px; color: #414141; border-radius: 2px; position: absolute;}
+.textarea:hover { border-color: #ff475c;}
+
+/*修改，更多按钮*/
+.Tmore,
+.Tchange { position: absolute; color: #414141; width: 36px; height: 24px; line-height: 24px; cursor: pointer;}
+.more { font-size: 12px;}
+.Tchange:hover,
+.Tmore:hover { color: #dd2222;}
+
+/*回到顶部*/
+.go_top { position: fixed; right: 20px; bottom:40px; width: 40px; height: 40px; background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat -300px -350px; z-index: 90;}
+.go_top:hover{ background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat -350px -350px;}
+
+/*弹窗样式*/
+/*<div class="alert_body">
+    <div class="alert_delete_box">
+      <h3><i class="message_close"></i></h3>
+      <p></p>
+      <div class="delete_button_box edit_button_box">
+        <button class="delete_confirm submit" id="delete_p">确定</button>
+        <button class="delete_cancel cancel" id="cancel_p">取消</button>
+      </div>
+    </div>
+  </div>*/
+.alert_body { background-color: rgba(0, 0, 0, 0.5); height: 100%; left: 0; position: fixed; top: 0; width: 100%; z-index: 101;}
+.alert_delete_box {position: absolute; width: 440px; height: 250px; top: 50%; left: 50%; margin: -125px 0 0 -220px; background: #fff; box-shadow: 0 0 5px 0 rgba(150,150,150,0.3); border-radius: 2px;  }
+.alert_delete_box h3,
+.alert_body h3 { width: 100%; height: 40px; font-size: 16px; text-align: center; line-height: 43px; border-bottom: 1px solid #eee; color: #6d6d6d;}
+.message_close { cursor: pointer; height: 12px; position: absolute; right: 20px; top: 18px; width: 12px; z-index: 66; background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat -50px -950px;}
+.message_close:hover { background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat 0 -950px;}
+.alert_delete_box>p { font-size: 14px; width: 100%; text-align: center; margin-top: 60px; line-height: 30px; color: #414141;}
+.edit_button_box { width: 100%; height: 40px; position: absolute; bottom: 30px; left: 0; text-align: center;}
+.edit_button_box button { display: inline-block; margin: 0 6px;}
+
+
+/*设置成功消息提示框*/
+.setting_succeed { width: 313px; height: 40px; position: fixed; top: -40px; left: 50%; margin-left: -156px; background-color: rgba(0,0,0,0.5); text-align: center; color: #fff; font-size: 16px; line-height: 40px;z-index: 500}
+.message-box { width: 280px;height: 27px;position: fixed;left: 50%;margin-left: -140px;background-color: rgba(0,0,0,0.5);top: -52px;z-index: 200;text-align: center;color: #fff;font-size: 15px;line-height: 25px;}
+
+/*清浮动*/
+.clearfix:after { display: table; content: ""; clear: both;}
+
+/*下拉菜单三角箭头*/
+.select-arrow { position: absolute; width: 0; height: 0; border-color: #b6b3aa transparent transparent; border-width: 6px; border-style: solid;
+  -webkit-transition:all .3s ease-in;
+  transition:all .3s ease-in;
+  -webkit-transform:rotate(0deg);
+  -ms-transform:rotate(0deg);
+  transform:rotate(0deg);
+  -webkit-transform-origin:4px 2px;
+  -ms-transform-origin:4px 2px;
+  transform-origin:4px 2px;
+}
+.select-arrow-active { 
+  -webkit-transform:rotate(-180deg);
+  -ms-transform:rotate(-180deg);
+  transform:rotate(-180deg);
+}
+
+/*点赞收藏fix-box样式*/
+  /*<li>
+    <img width="280" height="280">
+    <a class="inner_liked_img"></a>
+    <div class="photo_fixbox">
+      <a class="author">by.大镁铝</a>
+      <button class="photo_fixbox_like">
+      <button class="photo_fixbox_ding">
+    </div>
+  </li>*/   
+.photo_fixbox {
+  position: absolute;
+  bottom: -36px;
+  left: 0;
+  height: 36px;
+  line-height: 36px;
+  width: 100%;
+  background: rgba(255,255,255,0.95);
+  color: #b6b3ad;
+  font-size: 12px;
+}
+.author { 
+  padding-left: 7px;
+  color: #b6b3ad;
+  line-height: 36px;
+}
+.photo_fixbox button {
+  float: right;
+  cursor: pointer;
+  vertical-align: middle;
+  margin-top: 11px;
+}
+.photo_fixbox_liked,
+.photo_fixbox_like {
+  width: 21px;
+  height: 16px;
+  margin-right: 10px;
+}
+.photo_liked {
+  position: absolute;
+  bottom: 8px;
+  right: 10px;
+  margin: 0;
+}
+.inner_liked_img {
+  position: absolute;
+  width: 21px;
+  height: 16px;
+  bottom: 9px;
+  right: 10px;
+  background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat -100px -550px;
+  display: none;
+}
+.photo_fixbox_like { background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat -100px -500px;}
+.photo_fixbox_like:hover { background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat -100px -600px;}
+.photo_fixbox_liked { background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat -100px -550px;}
+.photo_fixbox_dinged,
+.photo_fixbox_ding {
+  width: 11px;
+  height: 20px;
+  margin-right: 20px;
+}
+.photo_fixbox_ding { background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat 0 -500px;}
+.photo_fixbox_dinged { background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat 0 -550px;}
+.photo_fixbox_ding:hover { background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat 0 -600px;}
+
+/* -moz-user-select:none;
+  -webkit-user-select:none;
+  -ms-user-select:none;
+  -khtml-user-select:none;
+  user-select:none;*/

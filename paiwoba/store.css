@@ -1,0 +1,163 @@
+.filter {
+  width: 100%;
+  height: 100%;
+  filter: blur(5px);
+     -webkit-filter: blur(5px); /* Chrome, Opera */   
+ }
+.store_box {
+  width: 610px;
+  height: 260px;
+  box-shadow:0 0 5px 1px rgba(150, 150, 150, .3);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin: -130px 0 0 -305px;
+  background: #FFF;
+  z-index: 999;
+  border-radius: 2px;   
+} 
+.store_title {
+  height: 35px;
+  line-height: 35px;
+  border-bottom: 1px solid #eee;
+  padding-top: 9px;
+  text-align: center;
+}
+/*.store_title em {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 17px;
+  right: 27px;
+  background: url(); no-repeat -1210px -535px;  
+}*/
+.store_contet {
+  padding: 33px 0 40px 41px;
+  height: 144px;
+  position: relative;
+}
+.store_album {
+  float: left;
+  width: 144px;
+  height: 144px;
+  border-radius: 2px;
+  margin-right: 35px;
+}
+.store_album_selected { 
+  position: relative;
+  float: left;
+}
+.store_album_input_none,
+.store_album_input { box-shadow:0 0 2px 1px rgba(150, 150, 150, 0.3);}
+.store_album_input { 
+  width: 315px;
+  padding-right: 26px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.store_album_input_none { 
+  border-radius: 2px;
+  width: 357px;
+  color: #414141;
+  cursor: pointer;
+  position: relative;
+  border: 1px solid #c6c6c6;
+  height: 34px;
+}
+.store_box .store_album_input_none {
+  background: #ff475c;
+  text-align: center;
+  border: 1px solid #dd2338;
+  display: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.store_album_select {
+  position: absolute;
+  top: -8px;
+  left: 218px;
+  width: 345px;
+  height: 199px;
+  overflow-x: hidden; 
+  overflow-y: auto; 
+  padding: 6px 7px 0 8px;
+  border: 1px solid #c6c6c6;
+  border-radius: 5px;
+  box-shadow:0 0 2px 1px rgba(150, 150, 150, 0.3);
+  background: #FFF;
+  z-index: 99;
+  display: none;
+}
+.store_select_li_cur,
+.store_album_select li{
+  padding-left: 10px;
+  list-style: none;
+  height: 26px;
+  line-height: 26px;
+  border: 1px solid #fff;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-size: 14px;
+  color: #757575;
+  cursor: pointer;
+  width: 315px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.store_box .store_select_li_cur{ 
+  background: #ff475c;
+  color: #fff;
+  height: 26px;
+  border: 1px solid #dd2338;
+  border-radius: 5px;
+}
+.store_box .store_select_li_cur:hover{
+  background: #ff475c;
+  border: 1px solid #dd2338; 
+  border-radius: 5px; 
+}
+.store_album_select li:hover {
+  background: #f3f2f2;
+  border: 1px solid #f3f2f2; 
+  border-radius: 5px;
+}
+.store_select_text {
+  width: 240px;
+  height: 28px;
+  color: #aeaeae;
+  border: 1px solid #dfdede;
+  border-radius: 3px;
+  background: #f7f7f6;
+  padding-left: 8px;
+  margin-right: 15px;
+}
+.store_select_button_none,
+.store_select_button {
+  width: 58px;
+  height: 28px;
+  border: 1px solid #d3d2d2;
+  border-radius: 2px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.store_select_button {
+  color: #686868;
+  background: #fff;
+}
+.store_select_button_none {
+  color: #b6b3aa;
+  background: #f7f7f6;
+  cursor: pointer;
+}
+.store_album_button {
+  position: absolute;
+  right: 26px;
+  bottom: 10px;
+  width: 180px;
+  margin-bottom: 28px;
+}
+.store_album_button button { display: inline-block;}
+.store_button_submit { margin-right: 12px;}

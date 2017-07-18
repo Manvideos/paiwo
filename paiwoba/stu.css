@@ -1,0 +1,1586 @@
+#main_box { padding-top: 40px;}
+.tab-icon_myset .select-arrow {
+  border: none;
+  width: 8px;
+  height: 8px;
+  background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/ no-repeat -550px -48px;;
+}
+.top_tab_opa { 
+  background: rgba(0,0,0,0);
+  box-shadow: none;
+}
+.top_tab_opa #tab-bephotog { color: #fff;}
+.top_tab_opa #tab-bephotog:hover { background: rgba(0,0,0,0);}
+.top_tab_opa .tab-login-a, .top_tab_opa .tab-regist-a { color: #fff;}
+.top_tab_opa .top-tab-logo { background-position: -100px -450px;}
+.top_tab_opa .tab-icon_myset p { color: #fff;}
+.top_tab_opa .select-arrow { background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/ no-repeat -500px -48px;}
+.top_tab_opa .tab-icon1:hover { background: rgba(0,0,0,0);}
+.top_tab_opa.top-tab .tab-icon_myset:hover { background: rgba(0,0,0,0);}
+.top_tab_opa .tab-icon_search { background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/ no-repeat -738px 14px;}
+.top_tab_opa .tab-icon_file { background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/ no-repeat -688px 14px;}
+.top_tab_opa .tab-icon_myme { background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/ no-repeat -788px 14px;}
+.top_tab_opa .tab-icon_myno { background: url(bell-white.svg)/*tpa=http://paiwo.co/static/images/bell-white.svg*/ no-repeat 11px 12px;}
+.top_tab_opa .tab-icon_myme { background: url(notice-white.svg)/*tpa=http://paiwo.co/static/images/notice-white.svg*/ no-repeat center;}
+.select-arrow {
+  -webkit-transform-origin:4px 4px;
+  -ms-transform-origin:4px 4px;
+  transform-origin:4px 4px;
+}
+.stuido_mian_bigbox {
+  width: 100%;
+  padding-top: 60px;
+}
+/*更换封面*/
+.header-back-change {
+  display: none;
+  position: absolute;
+  right: 47px;
+  bottom: 90px;
+  width: 250px;
+  height: 392px;
+  background: #fff;
+}
+.header-back-arrow {
+  position: absolute;
+  bottom: -16px;
+  right: 47px;
+  width: 0;
+  height: 0;
+  border-width: 8px;
+  border-color: #fff rgba(0,0,0,0) rgba(0,0,0,0);
+  border-style: solid; 
+}
+
+.header-back-online {
+  padding: 7px 5px 2px 5px;
+}
+.header-back-online:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+.header-back-online li {
+  position: relative;
+  float: left;
+  width: 75px;
+  height: 50px;
+  margin: 0 0 1px 1px;
+  cursor: pointer;
+  border: 2px solid #fff;
+}
+.header-back-online img {
+  width: 75px;
+  height: 50px;
+}
+
+.header-back-img{
+    border: 2px solid transparent;
+}
+
+.header-back-img.header-back-select,
+.header-back-online .header-back-select { 
+  border:2px solid #414141;
+}
+
+.header-back-img .select-add,.header-back-online .bg-choice i{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  background: url(select.png)/*tpa=http://paiwo.co/static/images/svg-icon/select.png*/ no-repeat;
+  background-size: 20px;
+  display: none;
+}
+
+.header-back-img.header-back-select .select-add{
+    display:block;
+}
+
+.header-back-online .bg-choice.header-back-select i{
+    display: block;
+}
+
+.header-back-up {
+  display: block;
+  width: 100%;
+  height: 110px;
+  margin: 0 auto;
+  padding-top: 45px;
+  background: #eee;
+  text-align: center;
+}
+.header-back-up span {
+  font-size: 12px;
+  color: #b6b3ad;
+  line-height: 28px;
+}
+.header-back-up p {
+  margin-top: 16px;
+  line-height: 34px;
+  font-size: 12px;
+  color: #b6b3aa;
+}
+.header-back-up .select-in {
+  display: block;
+  width: 36px;
+  height: 36px;
+  margin: 0 auto;
+  background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat -48px -2149px;
+}
+.header-back-up:hover i{ background-position:2px -2149px;}
+.header-back-up:hover span { color: #8a8880;}
+.header-back-img .re-choice{
+    display: block;
+    width: 84px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #212121;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.header-back-img .re-choice .re-icon{
+    float: left;
+    width: 14px;
+    height: 15px;
+    margin: -2px 0;
+    background:url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/ no-repeat -350px -50px;
+    margin:4px 6px;
+}
+
+.header-back-img .re-choice .re-cont{
+    float: left;
+}
+
+.header-back-img {
+  position: relative;
+  width: 235px;
+  height: 155px;
+  margin: 0 auto;
+  background-size: cover; 
+}
+.header-back-btn {
+  padding-top: 16px;
+  width: 136px;
+  height: 30px;
+  margin: 0 auto;
+}
+.header-back-btn:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+.header-back-btn button {
+  float: left;
+  width: 60px;
+  height: 30px;
+  font-size: 14px;
+  margin: 0 4px;
+}
+
+.stuido_mian {
+  width: 1190px;
+  background: #fff;
+  margin: 0 auto;
+}
+.stuido_header {
+  width: 100%;
+  height: 100%;
+  min-width: 1190px;
+  position: relative;
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 97;
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+}
+.stuido_header.active{
+  -webkit-transform: translateX(240px);
+  -ms-transform: translateX(240px);
+  transform: translateX(240px)
+}
+.stuido_header .photog_intro_text { 
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  width: 270px;
+  line-height: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.stuido_header
+.stuido_header_imgbox {
+  width: 100%;
+  overflow: hidden;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.stuido_header_img { -webkit-transform: scaleX(1.05) scaleY(1.05); -ms-transform: scaleX(1.05) scaleY(1.05); transform: scaleX(1.05) scaleY(1.05);}
+.header_img_shadow { 
+  /*background: -moz-linear-gradient(center top , rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.3) 100%);
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0) 50%,rgba(0,0,0,0.3) 100%);
+  background: -ms-linear-gradient(top, rgba(0,0,0,0) 50%,rgba(0,0,0,0.3) 100%);*/
+  background: black;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  height: 360px;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+.stuido_header_editicon {
+  width: 65px;
+  height: 30px;
+  padding-left: 40px;
+  position: absolute;
+  bottom: 40px;
+  right: 50px; 
+  z-index: 100;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.stuido_header_sign {
+/*  width: 100%;*/
+  height: 24px;
+/*  padding-left: 40px;*/
+  position: absolute;
+  bottom: 40px;
+  left: 50px; 
+  z-index: 100;
+/*  border: 1px solid #fff;*/
+  color: #fff;
+  font-size: 12px;
+  line-height: 24px;
+  cursor: default;
+}
+
+.stuido_header_editicon i{
+  position: absolute;
+  left: 15px;
+  top: 0;
+  width: 20px;
+  height: 30px;
+  background:url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/ no-repeat -450px -42px;
+}
+.stuido_header_textbox {
+  width: 410px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -115px 0 0 -205px;
+  z-index: 3;
+  color: #fff;
+  text-shadow: 0 0 4px rgba(0,0,0,0.5);
+}
+.stuido_header_textbox figure {
+  width: 126px;
+  height: 126px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  overflow: hidden;
+  margin: 0 auto;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.stuido_header_textbox figcaption {
+  height: 50px;
+  line-height: 50px;
+  margin: 18px auto 0 auto;
+  font-size: 30px;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+
+.studio_url {
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: center;
+}
+.bpbox { 
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.bpbox_blackbac {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #2e2e2e;
+  opacity: .3;
+}
+.banner_bg{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-transform: scaleX(1.05) scaleY(1.05);
+  -ms-transform: scaleX(1.05) scaleY(1.05);
+  transform: scaleX(1.05) scaleY(1.05);
+  -webkit-transition: -webkit-transform 4s linear 0s;
+  transition: transform 4s linear 0s;
+}
+.banner_bg.img_scale {
+  -webkit-transform: scaleX(1) scaleY(1);
+  -ms-transform: scaleX(1) scaleY(1);
+  transform: scaleX(1) scaleY(1);
+}
+.header-arrow {
+  width: 46px;
+  height: 46px;
+  position: absolute;
+  bottom: 70px;
+  left: 50%;
+  margin-left: -23px;
+}
+
+.down-arrow {
+  display: block;
+  width: 46px;
+  height: 46px;
+  background: url(arrow.png)/*tpa=http://paiwo.co/static/images/biz/arrow.png*/ no-repeat 6px 12px;
+  background-size: 34px 19px;
+  z-index: 55;
+  animation: arrowmove 1.5s infinite ease;
+  -moz-animation: arrowmove 1.5s infinite ease;
+  -ms-animation: arrowmove 1.5s infinite ease;
+  -webkit-animation: arrowmove 1.5s infinite ease;
+  cursor: pointer;
+}
+
+@keyframes arrowmove {
+  0%,
+  100% { -webkit-transform:none; transform:none;}
+  60% { -webkit-transform:translateY(10px); transform:translateY(10px);}
+}
+@-webkit-keyframes arrowmove {
+  0%,
+  100% { -webkit-transform:none;}
+  60% { -webkit-transform:translateY(10px);}
+}
+.banner_loading{
+	position: absolute;
+  left: 0;
+  top: 0;
+	width: 0%;
+	height: 3px;
+	background-color: #fff;
+	z-index: 100;
+	border-radius: 2px;
+}
+
+
+
+
+
+.studio-main {
+	width: 1190px;
+	margin: 0 auto;
+}
+
+.studio-main .stuido_header_textbox {
+  position: static;
+  margin: 0 auto;
+  text-shadow: none;
+}
+.studio_main_header { 
+  padding: 150px 0 24px 0;
+  opacity: 0;
+}
+.studio_main_header span { position: relative;}
+.studio_main_header figcaption i {
+  position: absolute;
+  top: 12px;
+  right: -22px;
+  height: 18px;
+  vertical-align: middle;
+  width: 14px;
+}
+.photog-male { background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat scroll -100px -800px; }
+.photog-female { background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat scroll 0 -800px;}
+
+.textbox_albumnus {
+  width: 165px;
+  float: right;
+}
+.studio_main_header figcaption{
+  font-size: 30px;
+  color: #414141;
+  height: 40px;
+  margin-top: 14px;
+  line-height: 14px; 
+}
+.textbox_albumnus p {
+  font-size: 12px;
+  line-height: 44px;
+  color: #b6b3ad;
+  float: left;
+}
+.textbox_albumnus a { 
+  font-size: 14px;
+  padding-right: 3px;
+  cursor: default;
+}
+.textbox_album {
+  width: 66px;
+  margin-left: 16px;
+}
+.textbox_photo { padding-left: 13px;}
+
+.studio-hot {
+	width: 183px;
+	margin: 0 auto;
+	padding-top: 13px;
+	border-top: 1px dotted #b6b3aa;
+	text-align: center;
+}
+
+.studio-hot-text { 
+	position: relative;
+	padding-left: 26px;
+}
+.studio-hot-text i {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 20px;
+	height: 20px;
+	background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/ no-repeat -596px -49px;
+}
+.studio-hot span {
+	color: #8a8880;
+	line-height: 20px;
+}
+.studio-hot .studio-hot-val { 
+	padding-left: 10px;
+	font-family: 'american';
+  	font-size: 18px;
+  	font-style: normal;
+  	-webkit-font-smoothing: antialiased;
+  	-webkit-text-stroke-width: 0.2px;
+  	-moz-osx-font-smoothing: grayscale;
+  	color: #414141;
+}
+
+
+/*页面没有内容*/
+.studio-none {
+  display: none;
+  width: 100%;
+  text-align: center;
+  color: #8a8880;
+  margin-top: 100px;
+}
+.studio-none-hack{
+  float: left;
+  width: 600px;
+  min-height: 390px;
+  margin-top: 0;
+  margin-left: 80px;
+  background-color: #f9f9f9;
+  box-shadow: 1px 1px 1px #fbfbfb;
+  border: 2px solid #f5f5f5;
+}
+.studio-none img {
+  width: 300px;
+  height: 223px;
+}
+
+.studio-con-pocket .studio-none img { width: 300px; height: 223px;}
+.studio-content .studio-none-hack p { margin-top: -20px;}
+.studio-none-hack span { display: block;}
+.studio-none p {
+  font-size: 20px;
+  line-height: 40px;
+  margin-top: 28px;
+}
+.studio-none span { 
+  line-height: 16px; 
+  color: #5a7f88;
+  display: block;
+}
+.studio-none a {
+  line-height: 16px;
+  color: #5a7f88;
+}
+.studio-none a u { text-decoration: underline;}
+.studio-none-hack img { 
+  width: 262px;
+  height: 232px;
+  display: inline-block;
+  margin: 40px auto 30px auto;
+}
+
+/*切换选项*/
+.studio-tab {
+	position: relative;
+	width: 100%;
+	padding-bottom: 27px;
+  text-align: center;
+}
+.studio-tab ul { display: inline-block;}
+.studio-tab li {
+	display: inline-block;
+	width: 100px;
+	height: 20px;
+	text-align: center;
+	cursor: pointer;
+	border-right: 1px solid #d8d6d0;
+}
+
+.studio-tab .studio-album { display: none;}
+.studio-tab a { 
+	position: relative;
+	font-size: 18px;
+	color: #8a8880;
+	line-height: 20px;
+}
+
+.studio-tab-cur a,
+.studio-tab li:hover a { 
+	color: #414141;
+	font-weight: bold;
+}
+
+.studio-tab .studio-friend {
+	border: none;
+}
+
+/*.studio-tab-line {
+	position: absolute;
+	bottom: 0;
+	width: 100px;
+	height: 2px;
+	background: #414141;
+	-webkit-transform: translateX(0);
+	-moz-transform: translateX(0);
+	-ms-transform: translateX(0);
+	transform: translateX(0);
+	-webkit-transition: transform .2s linear;
+	-moz-transition: transform .2s linear;
+	-ms-transition: transform .2s linear;
+	transition: transform .2s linear;
+}*/
+
+
+/*侧边Bar*/
+.studio-con-trend {
+  float: left;
+  width: 600px;
+  padding-left: 140px;
+  min-height: 720px;
+}
+.studio-content-r {
+	float: left;
+	width: 304px;
+	margin-left: 70px;
+}
+.studio-r-info {
+	padding: 28px 0 2px;
+	background: #fafafa;
+  border-width: 0 2px 2px 2px;
+  border-color: #f5f5f5;
+  border-style: solid;
+  box-shadow: 1px 1px 1px #fbfbfb;
+}
+.studio-info-tab { padding: 0 14px 28px;}
+.studio-info-tab li {
+	float: left;
+	width: 90px;
+	text-align: center;
+  cursor: pointer;
+}
+.studio-info-tab li:nth-child(2n){
+	border-left: 1px solid #d8d6d0;
+	border-right: 1px solid #d8d6d0;
+}
+.studio-info-tab span {
+	color: #8a8880;
+	line-height: 24px;
+	display: block;
+}
+@font-face {font-family: 'american';
+    src: url('American Typewriter.eot')/*tpa=http://paiwo.co/static/font/American Typewriter/American Typewriter.eot*/;
+    src: url('American Typewriter.eot-#iefix')/*tpa=http://paiwo.co/static/font/American Typewriter/American Typewriter.eot?#iefix*/ format('embedded-opentype'), 
+    url('American Typewriter.woff')/*tpa=http://paiwo.co/static/font/American Typewriter/American Typewriter.woff*/ format('woff'),
+    url('American Typewriter.ttf')/*tpa=http://paiwo.co/static/font/American Typewriter/American Typewriter.ttf*/ format('truetype'),
+    url('American Typewriter.svg#webfont')/*tpa=http://paiwo.co/static/font/American Typewriter/American Typewriter.svg#webfont*/ format('svg');
+}
+.studio-info-tab i {
+	color: #414141;
+	line-height: 36px;
+	font-family: 'american';
+	font-size:20px;
+	font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.studio_cieclebox {
+	  width: 170px;
+  	height: 34px;
+  	margin: 0 auto 18px;
+  	padding-top: 14px;
+}
+.studio_cieclebox button {
+  	width: 80px;
+  	height: 32px;
+    line-height: 32px;
+  	border: 1px solid #414141;
+  	border-radius: 15px;
+  	float: left;
+  	cursor: pointer;
+  	color: #414141;
+	  background: #fff;
+}
+.cieclebox_concen { 
+  position: relative;
+  margin-right: 10px;
+}
+.studio_cieclebox button:hover {
+	  color: #fff;
+  	background: #414141;
+	  border: 1px solid #414141;
+}
+.studio_cieclebox .cieclebox_concened {
+	background: #b6b3aa;
+	font-size: #fff;
+	border: 1px solid #b6b3aa;
+}
+.studio_cieclebox .follow_state_2,
+.studio_cieclebox .follow_state_4 {
+    color: #fff;
+    background: #414141;
+}
+
+.studio_main_header .studio_cieclebox .follow_hover {
+  padding-left: 0;
+  color: #414141;
+  background: #eee;
+  border: 1px solid #eee;
+}
+.studio_cieclebox .follow_state_2{
+    padding-left: 10px;
+}
+.studio_cieclebox .follow_state_4{
+    padding-left: 12px;
+}
+.studio_cieclebox .follow_state_2 i{
+    position: absolute;
+    left: 10px;
+    margin-top: 10px;
+    width: 12px;
+    height: 12px;
+    background-image:url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/;
+    background-repeat:no-repeat;
+    background-position:-549px -398px;   
+}
+.studio_cieclebox .follow_state_4 i{
+    position: absolute;
+    margin: 9px 0 0 -15px;
+    width: 12px;
+    height: 12px;
+    background-image:url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/;
+    background-repeat:no-repeat;
+    background-position:-599px -398px;
+}
+/*.textbox_palce {
+	margin-bottom: 14px;
+  	color: #8a8880;
+  	width: auto;
+  	text-align: center;
+  	vertical-align: middle;
+}
+.textbox_palce i {
+  	width: 14px;
+  	height: 21px;
+  	background: url(/static/images/spirit.svg) repeat scroll -200px -550px;
+  	display: inline-block;
+  	vertical-align: middle;
+  	margin-right: 12px;
+  	-webkit-transform: scale(0.8,0.8);
+  	-ms-transform: scale(0.8,0.8);
+  	transform: scale(0.8,0.8);
+}*/
+.studio-info-main {
+	padding:18px 23px 0 29px;
+	width: 248px;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+.studio-info-main li { margin-bottom: 12px;}
+.studio-info-main li:after{
+	display: block;
+	clear: both;
+	content: "";
+}
+.studio-info-main span {
+	position: relative;
+	padding-left: 26px;
+	margin-right: 8px;
+	float: left;
+	font-size: 12px;
+	color: #414141;
+	line-height: 22px;
+}
+.studio-info-main i {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 22px;
+	height: 22px;
+  background-image: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/;
+  background-repeat: no-repeat;
+}
+.studio-info-live i { background-position: 4px -297px;}
+.studio-info-intro i { background-position: -47px -296px;}
+.studio-info-url i { background-position: -98px -297px;}
+.studio-info-type i { background-position: -149px -296px;}
+.studio-info-place i { background-position: -196px -296px;}
+.studio-info-live p,
+.studio-info-intro p,
+.studio-info-place p {
+	float: left;
+	color: #8a8880;
+	font-size: 12px;
+	line-height: 22px;
+	width: 160px;
+    word-wrap: break-word;
+}
+.studio-info-url p {
+	float: left;
+	width: 140px;
+	font-size: 12px;
+	line-height: 22px;
+	color: #5a7f88;
+}
+.studio-info-main dl {
+	float: left;
+	line-height: 22px;
+	color: #5a7f88;
+	font-size: 12px;
+}
+.studio-info-main dl:after {
+	display: block;
+	clear: both;
+	content: "";
+}
+.studio-info-main dd { 
+	float: left;
+	margin: 0 4px;
+}
+.studio-info-type,
+.studio-info-place { display: none;}
+.studio-info-type dl{ width: 170px;}
+.studio-info-place dl{ width: 160px;}
+.studio-info-more {
+	position: relative;
+	display: block;
+	color: #414141;
+	font-size: 12px;
+	text-align: center;
+	line-height: 34px;
+}
+.studio-info-more i {
+	position: absolute;
+	right: 106px;
+	top: 12px;
+	width: 13px;
+	height: 11px;
+	background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat -49px -2097px;
+}
+/*活动*/
+.studio-r-active {
+	width: 300px;
+/*  height: 320px;*/
+    height: auto;
+	margin-top: 25px;
+	background: #fafafa;
+  border-width: 0 2px 2px 2px;
+  border-color: #f5f5f5;
+  border-style: solid;
+  box-shadow: 1px 1px 1px #fbfbfb;
+}
+.studio-act-tit {
+	padding: 0 21px 0 18px;
+	height: 38px;
+	border-bottom: 1px solid #eee;
+	line-height: 38px;
+}
+.studio-act-tit span { 
+	float: left;
+	color: #414141;
+	font-size: 14px;
+}
+.studio-act-tit a { 
+	float: right;
+	padding-right: 15px;
+	position: relative;
+	color: #414141;
+	font-size: 12px;
+}
+.studio-act-tit i {
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: #b6b3aa;
+	font-family: "宋体";
+	font-weight: bold;
+}
+.studio-r-active ul {
+	width: 270px;
+	margin: 15px auto 0;
+	padding-bottom: 15px;
+    text-align: center;
+}
+.studio-r-active li {
+	float: left;
+	width: 80px;
+  height: 120px;
+	margin: 0 5px;
+	cursor: pointer;	
+}
+.studio-active-con { 
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background-image: url(photo4.jpg)/*tpa=http://paiwo.co/static/images/photo4.jpg*/;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.studio-act-status {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 80px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	text-align: center;
+	color: #fff;
+}
+.studio-act-ing { background: #2dd888;}
+.studio-act-will { background: #414141;}
+.studio-act-wait { background: #8a8880;}
+.studio-r-active h4 {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+	line-height: 30px;
+	color: #414141;
+	font-size: 12px;
+	text-align: center;
+}
+
+/*公共*/
+.studio-care-main,
+.studio-fans-main { 
+  position: relative;
+  min-height: 1030px;
+}
+.studio-care-main .studio-none img,.studio-fans-main .studio-none img{ width: 326px; height: 330px;}
+.studio-fans-main { display: none;}
+.studio-con-album,.studio-con-pocket,.studio-con-friend { 
+  display: none;
+  min-height: 720px;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+.studio-button:after {
+	display: block;
+	clear: both;
+	content: "";
+}
+.studio-button{ margin-top: 6px;}
+.studio-button a {
+  position: relative;
+	float: left;
+  width: 35px;
+  height: 28px;
+  padding-left: 27px;
+  margin-right: 6px;
+	border: 1px solid #d8d6d0;
+	line-height: 28px;
+	color: #8a8880;
+	font-size: 12px;
+	border-radius: 1px;
+  background: #fff;
+  -webkit-transition:border .3s;
+  transition:border .3s;
+}
+.studio-button i {
+	position: absolute;
+	top: 7px;
+  left: 6px;
+	width: 16px;
+	height: 16px;
+}
+.studio-button .liked-btn,
+.studio-button .recd-btn{ color: #414141;}
+.like-btn:hover{ border-color: #ff475c;}
+.liked-btn:hover { border-color: #ff475c;}
+.rec-btn:hover { border-color: #414141;}
+.recd-btn:hover { border-color: #414141;}
+.studio-button .like-btn i { background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/ no-repeat -298px -298px;}
+.studio-button .liked-btn i{ background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/ no-repeat -248px -298px;}
+.studio-button .rec-btn i { background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/ no-repeat -398px -298px;}
+.studio-button .recd-btn i { background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/ no-repeat -348px -298px;}
+
+.studio-rec-author {
+	float: right;
+	line-height: 30px;
+    cursor: pointer;
+}
+.studio-rec-author span {
+	color: #212121;
+	font-size: 14px;
+	font-weight: bold;
+} 
+.studio-rec-author i {
+  position: static;
+	font-size: 12px;
+	color: #8a8880;
+}
+.publish-time { 
+	float: right;
+	font-size: 12px;
+	color: #8a8880;
+	line-height: 30px;
+}
+/*动态*/
+.studio-trend-list { 
+	position: relative;
+	width: 600px;
+  margin-bottom: 40px;
+}
+.studio-trend-ava {
+	position: absolute;
+	top: 23px;
+	left: 20px;
+}
+.studio-trend-ava img {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+.studio-trend-tit { 
+    padding-bottom: 10px;
+    width: 100%;
+    height: 26px;
+}
+.studio-trend-tit span {
+	float: left;
+	color: #212121;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 26px;
+	cursor: pointer;
+	max-width: 130px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.studio-trend-tit p {
+	float: left;
+	font-size: 14px;
+	line-height: 26px;
+	color: #414141;
+}
+.studio-trend-tit a {
+	float: left;
+	color: #5a7f88;
+	line-height: 26px;
+	font-size: 14px;
+	max-width: 200px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+  padding: 0 10px;
+}
+.studio-trend-tit i { 
+	float: right;
+	font-size: 12px;
+	color: #8a8880;
+	line-height: 26px;
+}
+.studio-trend-area { width: 600px; }
+.ph-dete { 
+  display: block;
+  width: 600px;
+  height: 360px;
+  text-align: center;
+  padding-top: 40px;
+}
+.studio-trend-delete .ph-dete img
+ {
+  width: 300px;
+  height: 300px;
+}
+.ph-dete i {
+  display: block;
+  text-align: center;
+  color: #8a8880;
+  font-size: 14px;
+  line-height: 20px;
+  padding-top: 10px;
+}
+.studio-trend-area>a { cursor: pointer;display: block;}
+.trend-album-cover>img { cursor: pointer;}
+.trend-album-img li img { cursor: pointer;}
+.trend-album-cover {
+	position: relative;
+	float: left;
+	width: 479px;
+}
+.trend-album-cover img{
+	width: 479px;
+	height: 479px;
+}
+.trend-album-cover h4 {
+	position: absolute;
+  	right: 10px;
+  	bottom: 10px;
+  	font-weight: normal;
+  	width: 45px;
+  	height: 24px;
+  	padding-left: 9px;
+  	line-height: 24px;
+  	color: #fff;
+  	text-align: right;
+  	background: rgba(0,0,0,.5);
+  	z-index: 2;
+  	border-radius: 12px;
+  	font-size: 12px;
+}
+.trend-album-cover i {
+	float: left;
+  	width: 12px;
+  	height: 24px;
+  	background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/ no-repeat -849px 7px;
+}
+.trend-album-cover span {
+	padding: 0 2px;
+  	float: left;
+  	width: 24px;
+  	text-align: center;
+}
+.studio-trand-album ul {
+	float: right;
+}
+.studio-trand-album li { margin-bottom: 13px;}
+.studio-trand-album li:nth-child(4n){ margin-bottom: 0;}
+.studio-trand-album li img {
+ 	width: 110px;
+ 	height: 110px;
+ }
+ .studio-trend-pocket{
+ 	position: relative;
+ 	display: block;
+ 	width: 600px;
+ 	height: 400px;
+ }
+ .studio-pocket-logo {
+ 	position: absolute;
+  top: 0;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  z-index: 3;
+  background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/ no-repeat -250px -200px;
+ }
+ .studio-trend-img span {
+  line-height: 400px;
+  color: #8a8880;
+  font-size: 16px;
+ }
+ .studio-trend-img {
+  width: 600px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center center;
+  text-align: center;
+ }
+ .studio-trend-shadow {
+	position: relative;
+	width: 600px;
+	height: 400px;
+ }
+ .studio-trend-shadow span {
+ 	position: absolute;
+ 	left: 0;
+ 	top: 0;
+ 	width: 600px;
+ 	height: 400px;
+ 	background: rgba(33,33,33,.3);
+ 	z-index: 2;
+ }
+ .studio-trend-shadow img {
+ 	width: 600px;
+ 	height: 400px;
+ }
+ .studio-pocket-tit {
+ 	position: absolute;
+ 	bottom: 54px;
+ 	left: 50%;
+ 	width: 316px;
+ 	margin-left:-158px; 
+ 	color: #eee;
+ 	text-align: center;
+ 	z-index: 3;
+ }
+ .studio-pocket-tit h3 {
+ 	line-height: 64px;
+ 	font-size: 24px;
+ 	border-bottom: 1px dotted #eee;
+  overflow: hidden;
+ }
+ .studio-pocket-tit p {
+ 	line-height: 45px;
+ 	font-size: 12px;
+ }
+
+ .studio-active-img {
+  float: left;
+  width: 240px;
+  height: 240px;
+  background-image: url(photo4.jpg)/*tpa=http://paiwo.co/static/images/photo4.jpg*/;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+.studio-active-detail {
+  float: left;
+  width: 230px;
+  height: 170px;
+  padding: 44px 64px 24px 64px;
+  border: 1px solid #eee;
+  background: #fafafa;
+  text-align: center;
+}
+.studio-active-detail h3 {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 16px;
+  line-height: 50px;
+  color: #414141;
+  border-bottom: 1px solid #d8d6d0;
+}
+.studio-active-time {
+  font-size: 12px;
+  line-height: 24px;
+  padding: 10px 0 20px;
+}
+.studio-active-time span { color: #8a8880;}
+.studio-active-time i { color: #414141;}
+.studio-active-cond {
+  position: relative;
+  display: inline-block;
+  line-height: 24px;
+  padding-left: 20px;
+  font-size: 12px;
+  color: #8a8880;
+}
+.studio-active-cond i { 
+  position: absolute;
+  left: 1px;
+  top: 5px;
+  width: 14px;
+  height: 14px;
+  background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/ -299px -349px no-repeat;
+}
+.studio-look { 
+  width: 100px;
+  height: 32px;
+  margin-top: 5px;
+  font-size: 14px;
+}
+/*动态 end*/
+
+.studio-con-pocket {
+  position: relative;
+  width: 600px;
+  margin: 0 auto;
+}
+/*影集*/
+.studio-con-album { position: relative;}
+.content_albumbox { 
+	padding-top: 36px;
+	width: 1200px;
+    margin: 0 auto;
+
+}
+.content_albumbox li {
+  	width: 280px;
+  	height: 316px;
+  	float: left;
+  	margin: 0 20px 15px 0px;
+  	position: relative;
+}
+/*.content_albumbox li:nth-child(4n){ margin-right:0; }*/
+.content_albumbox_albumimg {
+  	display: block;
+  	position: absolute;
+  	z-index: 22;
+  	cursor: pointer;
+}
+.content_albumbox li h4 {
+  	position: absolute;
+  	right: 10px;
+  	bottom: 46px;
+  	font-weight: normal;
+  	width: 45px;
+  	height: 24px;
+  	padding-left: 9px;
+  	line-height: 24px;
+  	color: #fff;
+  	text-align: right;
+  	background: rgba(0,0,0,.5);
+  	z-index: 32;
+  	border-radius: 12px;
+  	font-size: 12px;
+}
+.content_albumbox li h4 i {
+  	float: left;
+  	width: 12px;
+  	height: 24px;
+  	background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/ no-repeat -849px 7px;
+}
+.content_albumbox li h4 span {
+  	padding: 0 2px;
+  	float: left;
+  	width: 24px;
+  	text-align: center;
+}
+.content_albumbox li h3 {
+  	font-size: 14px;
+  	color: #414141;
+  	text-align: center;
+  	font-weight: normal;
+  	position: absolute;
+  	width: 100%;
+  	bottom: 7px;
+}
+
+/*上传相册*/
+.content_album_up {
+  display: block;
+  width: 276px;
+  height: 166px;
+  padding-top: 110px;
+  border: 2px solid #d8d6d0;
+}
+.content_album_up i {
+  display: block;
+  width: 36px;
+  height: 36px;
+  margin: 0 auto;
+  background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat -48px -2149px;
+}
+.content_album_up p{
+  font-size: 12px;
+  color: #b6b3ad;
+  line-height: 28px;
+  width: 100%;
+  text-align: center;
+}
+.content_album_up:hover {
+  border: 2px solid #b6b3aa;
+}
+.content_album_up:hover i { background-position:2px -2149px;}
+/*影集 end*/
+
+/*朋友*/
+.studio-con-friend {
+  width: 690px;
+  padding: 0 55px;
+  min-height: 720px;
+  margin: 0 auto;
+  background: #fafafa;
+  border-width: 0 1px;
+  border-color: #f2f1f2;
+  border-style: solid;
+  box-shadow: 1px 2px 10px #f8f8f8;
+}
+.studio-friend-tit {
+	width: 100%;
+	padding: 15px 0 15px;
+	border-bottom: 1px solid #eee;
+}
+.studio-friend-tit ul {
+	width: 191px;
+	margin: 0 auto;
+}
+.studio-friend-tit li {
+	float: left;
+	width: 95px;
+	line-height: 20px;
+	color: #8a8880;
+	font-size: 14px;
+	cursor: pointer;
+}
+.studio-friend-tit li:hover,.studio-friend-tit .studio-friend-cur { 
+	color: #414141;
+	font-weight: bold;
+}
+.studio-friend-tit span {
+	float: left;
+	width: 45px;
+	text-align: right;
+}
+.studio-friend-tit i {
+	float: left;
+	width: 50px;
+	text-align: center;
+}
+.studio-friend-care { border-right: 1px solid #d8d6d0;}
+
+.studio-friend-list {
+	width: 690px;
+	height: 76px;
+	padding: 11px 0;
+	border-bottom: 1px solid #eee;
+}
+.studio-fri-ava {
+	float: left;
+	padding: 8px 0;
+	width: 60px;
+	height: 60px;
+}
+.studio-fri-ava img { 
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+
+.studio-fri-info {
+	float: left;
+	margin-left: 24px;
+}
+.studio-fri-iden { height: 30px;}
+.studio-fri-iden:after {
+	display: block;
+	clear: both;
+	content: "";
+}
+.photog-name {
+	float: left;
+	color: #212121;
+	line-height: 30px;
+}
+.photog-male,.photog-female {
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin: 5px 0 0 8px;
+	background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat; 
+}
+.photog-male { background-position: -97px -797px;}
+.photog-female { background-position: 5px -799px;}
+.photog-confirm {
+	position: relative;
+	float: left;
+	margin: 4px 0 0 8px;
+	width: 38px;
+	height: 24px;
+	background: #d1c694;
+	font-size: 12px;
+	line-height: 24px;
+	color: #fff;
+	border-radius: 10px;
+	padding-left: 24px;
+}
+.photog-confirm i {
+	position: absolute;
+	left: 6px;
+	top: 4px;
+	width: 16px;
+	height: 16px;
+}
+.studio-fri-place span{
+	line-height: 22px;
+	font-size: 12px;
+	color:#8a8880;
+	margin-right: 4px;
+}
+.studio-fri-tab {
+	font-size: 12px;
+	line-height: 14px;
+	margin-top: 7px;
+  max-width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow:ellipsis;
+}
+.studio-fri-box {
+	float: right;
+}
+/*.studio-fri-box a:hover {
+  color: #fff;
+  background: #414141;
+}*/
+.studio-fri-care { 
+  position: relative;
+  margin-right: 7px;
+  width: 78px;
+}
+.studio-fri-box a {
+  float: left;
+  border: 1px solid #d8d6d0;
+  height: 28px;
+  line-height: 28px;
+  font-size: 12px;
+  color: #414141;
+  text-align: left;
+}
+.studio-fri-mess:hover { 
+  border: 1px solid #414141;
+  color: #414141;
+}
+.studio-fri-care i {
+  float: left;
+  width: 12px;
+  height: 12px;
+  margin-top: 8px;
+  background-image: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/;
+  background-repeat: no-repeat;
+}
+.studio-fri-care.care_1,
+.studio-fri-care.care_3 {
+  -webkit-transition: border .3s;
+  transition: border .3s;
+  padding-left: 21px;
+  width: 57px;
+}
+.studio-fri-care.care_1:hover,
+.studio-fri-care.care_3:hover {
+  border: 1px solid #414141;
+  color: #414141;
+}
+.studio-fri-care.care_2,
+.studio-fri-care.care_4 {
+  padding-left: 10px;
+  width: 68px;
+}
+.studio-fri-care.care_1 i,
+.studio-fri-care.care_3 i {
+  background-position: 1px -247px;
+}
+.studio-fri-care.care_2 i {
+  margin-right: 5px;
+  background-position: -99px -247px;
+}
+.studio-fri-care.care_4 i {
+  margin-right: 5px;
+  background-position: -149px -248px;
+}
+
+.care_2.studio-hover,.care_4.studio-hover {
+  text-align: center;
+  width: 78px;
+  padding-left: 0;
+}
+
+.studio-fri-box .studio-fri-mess { 
+  width: 50px;
+  text-align: center;
+  -webkit-transition: border .3s;
+  transition: border .3s;
+}
+
+.page {
+  position: absolute;
+/*  width: 301px;*/
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.page-in { display: inline-block;}
+.page-no { display: inline-block;}
+
+.page-no .page-none{ display: none;}
+.page a,.page span {
+	display: inline-block;
+	font-size: 14px;
+	color: #212121;
+	line-height: 20px;
+	padding: 0 9px;
+	margin-right: 8px;
+/*    border: 1px solid transparent;*/
+
+}
+.page a:hover { 
+/*    position: relative;*/
+    color: #5a7f88;
+/*    font-weight: bold;*/
+}
+
+
+
+.page .page-cur{ background: #eee;}
+.page .page-cur:hover { color: #212121;}
+.page .page-pre {
+	border-right: 1px solid #d8d6d0;
+	cursor: pointer;
+}
+.page .page-next {
+	border-left: 1px solid #d8d6d0;
+	cursor: pointer;
+}
+.page .page-none { color: #8a8880;}
+.page .page-first {
+    color: #8a8880;
+    cursor: auto;
+}
+.page .page-first:hover{
+    color: #8a8880;
+    font-weight: 400;
+}
+/*朋友 end*/
+
+
+/*点赞*/
+.tab_buttons_left:before,.tab_buttons_right:before{
+  width: 80px;
+  height: 56px;
+  left: -9px;
+}
+
+/*删除*/
+.studio-trend-delete .studio-pocket-logo,
+.studio-trend-delete .studio-pocket-tit,
+.studio-trend-delete .studio-rec-author 
+{ display: none;}

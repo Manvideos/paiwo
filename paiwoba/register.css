@@ -1,0 +1,818 @@
+/*先逛逛按钮*/
+.look_look {
+  width: 60px;
+  position: absolute;
+  top: 7px;
+  right: 14px;
+  height: 20px;
+  line-height: 20px;
+  color: #b6b3aa;
+  text-align: right;
+  font-size: 12px;
+  cursor: pointer;
+  z-index: 10;
+}
+.look_look:hover { text-decoration: underline;}
+
+/*成为摄影师按钮*/
+.be_photoer {
+  position:absolute;
+  bottom: -50px;
+  padding: 0 14px;
+  right: 107px;
+  width: 132px;
+  height: 30px;
+  cursor: pointer;
+  border: 1px solid #e5e5e5;
+  color: #e5e5e5;
+  font-size: 16px;
+  text-align: center;
+  line-height: 30px;
+  z-index: 55;
+  border-radius: 14px;  
+}
+.be_photoer:hover {
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+/*登录框样式*/
+.login_box { 
+  height: 400px;
+  margin: -220px 0 0 -200px; 
+}
+.loginbox_logo {
+  width: 78px;
+  height: 37px;
+  margin: 0 auto 31px auto; 
+  background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat -100px -300px;
+}
+.loginbox_h1_text {
+  height: 20px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  margin-left: -120px;
+  width: 240px;
+  height: 24px;
+  text-indent: -999em;
+  background: url(logo_lightgray.svg)/*tpa=http://paiwo.co/static/images/svg-icon/logo_lightgray.svg*/ no-repeat;  
+}
+.inputs_title_h6 {
+  position: absolute;
+  width: 150px;
+  height: 20px;
+  line-height: 20px;
+  color: #92918d;
+  top: -2px;
+  left: 52px;
+  background: #fff;
+  font-size: 14px; 
+}
+.login_inputs .inputs_title_h6{ left: 84px;}
+
+ /*第三方登录*/
+.login_third_login {
+  width: 100%;
+  height: 87px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  text-align: center; 
+}
+.login_third_login li{
+  display: inline-block;
+  width: 52px;
+  height: 52px;
+  margin: 0 13px;
+}
+.login_third_login li a {
+  display: block;
+  width: 52px;
+  height: 52px;
+  cursor: pointer;
+}
+.login_qq { background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat -300px -1300px;}
+.login_qq:hover { background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat -200px -1500px;}
+.login_xinlang { background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat -200px -1300px;}
+.login_xinlang:hover { background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat -100px -1500px;}
+.login_weixin { background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat 0 -1400px;}
+.login_weixin:hover { background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat -300px -1500px;}
+
+/*inputs*/
+.inputs_box { 
+  width: 240px;
+  height: 150px;
+  margin:0 auto 15px auto;
+  position: relative;
+}
+.inputs_box li{ position: relative;}
+.forget_email,
+.forget_vcode,
+.inputs_box input {
+  display: block;
+  width: 228px;
+  height: 14px;
+  color: #8c8c8c;
+  border: 1px solid #cfcdce;
+  background: #fff;
+  margin-bottom: 10px;  
+  font-size: 12px;
+}
+#login_email,#login_pwd,#r_email,#r_pwd,#r_verify,#f_email,#f_verify{ 
+  padding: 12px 0 12px 10px;
+  height: 14px;
+}
+.forgetbox .login_botton,
+.register_box .login_botton { 
+  padding-left: 0;
+  width: 240px;
+  height: 40px;
+}
+.ver_code .forget_vcode { width: 120px;}
+.register_box .email_error { 
+  color: #be2a3c;
+  height: 37px;
+  border: 1px solid #F00;
+}
+.password { color: #8c8c8c;}
+.password_div { position: relative;}
+.login_botton {
+  color: #FFF;
+  width: 240px;
+  line-height: 40px;
+  text-align: center;
+  margin: 0;
+}
+.bottom_text {
+  width: 240px;
+  height: 20px;
+  margin: 0 auto;
+}
+.forget,
+.go_register {
+  height: 16px;
+  font-size: 13px;
+  text-align: center;
+  margin: 0 auto; 
+  text-decoration: none;
+  cursor: pointer;
+  color: #b6b3aa;
+}
+.forget { float: left;}
+.go_register { float: right;}
+.bottom_text a:hover { text-decoration: underline;}
+.email_error_em,
+.password_error_em {
+  position: absolute;
+  top: 1px;
+  right: -150px;
+  width: 145px;
+  height: 40px;
+  line-height: 40px;
+  background: url(spirit.png)/*tpa=http://paiwo.co/static/images/login/spirit.png*/ no-repeat -104px -74px;
+  color: #505050;
+  font-size: 14px;
+  display: none;
+  text-indent: 20px;
+}
+.email_error_icon,
+.password_error_icon,
+.verify_error_icon{
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  width: 18px;
+  height: 18px;
+  background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat -200px -700px;
+  display: none;
+}
+.verify_error_icon { right:117px;}
+
+/*注册框*/
+.login_box,
+.register_box {
+  width: 350px;
+  padding: 40px 15px 0 15px;
+  position: fixed; 
+  top: 50%;
+  left: 50%;
+  background: #FFF;
+  border-radius: 2px;
+}
+.register_box { 
+  height: 470px;
+  margin: -255px 0 0 -200px;
+}
+.login_contet {
+  width: 250px;
+  margin: 0 auto;
+}
+.registbox_logo { background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat -200px -300px; }
+.login_inputs {
+  width: 245px;
+  height: auto;
+  padding-left: 5px;
+  margin: 0; 
+}
+.login_inputs li { position: relative;}
+.login_inputs>li input {
+  width: 230px;
+  border: 1px solid #b6b3aa;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+.login_inputs_title {
+  display: block;
+  width: 250px;
+  height: 7px;
+  margin-bottom: 29px;
+  border-bottom: 1px solid #b6b3aa; 
+  position: relative;
+}
+.register_box .vcode { width: 121px;}
+.forget_vcode { width: 120px;}
+.ver_code { position: relative;}
+.ver_code img {
+  position: absolute;
+  top: 1px;
+  right: 3px;
+  width: 100px;
+  height: 38px;
+  cursor: pointer;
+}
+.ver-code-num {
+    position: absolute;
+    top: 1px;
+    right: 3px;
+    width: 98px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    background: #eee
+}
+.ver-code-none {
+    background: #eee;
+    border: 1px solid #eee;
+    color: #8a8880;
+    cursor: auto;
+}
+.ver-code-have {
+    background: #fff;
+    border: 1px solid #414141;
+    color: #414141;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.ver-code-have:hover {
+    color: #2dd888;
+    border: 1px solid #2dd888;
+}
+.register_box p {
+  text-align: center;
+  font-size: 12px;
+  height: 20px;
+  line-height: 20px;
+  color: #bfbfbf;
+  margin-top: 8px;
+}
+.register_box p a {
+  color: #e8344a;
+  cursor: pointer;
+}
+.register_box p a:hover { text-decoration: underline;}
+.go_login { 
+  display: block;
+  height: 20px;
+  color: #bfbfbf;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 22px;
+  cursor: pointer;
+}
+.go_login:hover { text-decoration: underline;}
+/*动画*/
+.content{
+  width: 100%;
+  height: 1654px;
+  background-repeat: repeat-x; 
+  background-color: rgb(98,98,108);
+  opacity: 0.8;
+  margin: 0 auto;
+  position: fixed;
+  left:0;
+  top:0;
+  -webkit-animation: mymove 50s linear; 
+  -moz-animation: mymove 50s linear; 
+  -ms-animation: mymove 50s linear; 
+  animation: mymove 50s linear;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes mymove 
+{
+  from {
+	  -webkit-transform: translate(0,0px);
+  }
+  to {
+	 -webkit-transform: translate(0,-330px);
+  }
+}
+
+@-moz-keyframes mymove {
+  from {
+    -moz-transform: translate(0px,0px);
+  }
+  to {
+    -moz-transform: translate(0px,-330px);
+  }
+}
+
+@-ms-keyframes mymove {
+  from {
+    -ms-transform: translate(0px,0px);
+  }
+  to {
+    -ms-transform: translate(0px,-330px);
+  }
+}
+
+@keyframes mymove
+{
+  from {
+	  transform: translate(0,0px);
+  }
+  to {
+	  transform: translate(0,-330px);
+  }
+}
+/****动画结束****/
+
+.email_error_em,
+.password_error_em,
+.verify_error_em{
+  position: absolute;
+  top: 1px;
+  right: -150px;
+  width: 145px;
+  height: 41px;
+  line-height: 41px;
+  background: url(spirit.png)/*tpa=http://paiwo.co/static/images/login/spirit.png*/ no-repeat -104px -74px;
+  color: #505050;
+  font-size: 14px;
+  text-indent: 20px;
+  display: none;
+}
+
+/*注册验证邮箱框*/
+.mailbox {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin: -150px 0 0 -220px;
+  width: 440px;
+  height: 300px;
+  background-color: #FFF;
+  box-shadow: 0 0 3px 0 rgba(150,150,150,0.3);
+  border-radius: 2px;
+  display: none;
+}
+.mailbox .v-email { margin-bottom: 29px;}
+.mail-span { 
+  text-align: center;
+  color: #dd2222;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+}
+.mailbox p { 
+  text-align: center;
+  margin-bottom: 10px;
+}
+.mail-btn { margin: 0 auto;}
+
+/*忘记密码input框部分*/
+.forgetbox_ul {
+  margin: 0 auto;
+  width: 240px;
+}
+.forgetbox_ul li { position: relative;}
+.mail-url{ color: #dd2338;}
+.mail-url:hover { text-decoration: underline; }
+.bp_compelet_ul { margin-top: 25px;}
+.bp_compelet_ul li {
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  text-align: center;
+  color: #bfb9b9; 
+}
+.bp_compelet_ul li a {
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #dd2338;
+  cursor: pointer;
+}
+.bp_compelet_ul li a:hover { text-decoration: underline;}
+
+/*忘记密码-找回密码框*/
+#forgetbox,.forgetbox-phone{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin: -150px 0 0 -182px; 
+  width: 365px;
+  height: 260px; 
+  background-color: #FFF;
+  border-radius: 2px;
+  text-align: center;
+}
+.forget-title {
+  width: 100%;
+  color: #8a8880;
+  text-align: center;
+  font-size: 16px;
+  height: 42px;
+  line-height: 42px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+}
+.forgetbox_i,
+.mail_close {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  width: 13px;
+  height: 13px;
+  background:  url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat -50px -950px;
+  cursor: pointer;
+}
+.forgetbox_i,.mail_close:hover { background:  url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat 0 -950px;}
+.my-font { font-family: "Microsoft YaHei",微软雅黑,STHei,华文黑体,"Helvetica Neue",Helvetica,Arial,sans-serif}
+.forgetbox-phone input {
+    padding: 12px 0 12px 10px;
+    height: 14px;
+}
+.forget-way {
+    display: inline-block;
+    border-bottom: 1px solid #bdbbb3;
+    color: #bdbbb3;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 20px;
+}
+
+/*注册成功*/
+.setting-mes {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 360px;
+    height: 340px;
+    margin: -170px 0 0 -180px;
+    background: #FFF;
+    border-radius: 2px;
+}
+.reg-success {
+    position: relative;
+    margin-top: 26px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 30px;
+    color: #414141;
+}
+.reg-success i {
+    position: absolute;
+    top: 0;
+    left: 64px;
+    width: 55px;
+    height: 55px;
+}
+.setting-compe {
+    text-align: center;
+    font-size: 14px;
+    line-height: 28px;
+    color: #b6b3aa;
+}
+.reg-suc-input {
+    width: 240px;
+    margin: 43px auto 0;
+}
+.reg-suc-input li:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+.reg-suc-input li {
+    width: 240px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.setting-part-tit {
+    float: left;
+    width: 60px;
+    color: #414141;
+    text-align: left;
+}
+.information_ul_nametext {
+    float: left;
+    width: 170px;
+    height: 38px;
+    padding-left: 8px;
+    border: 1px solid #eee;
+    line-height: 38px;
+}
+.setting-next {
+    display: block;
+    margin: 0 auto;
+    width: 240px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+}
+.setting-next-forbid {
+    background: #b6b3aa;
+    cursor: auto;
+}
+.setting-next-allow {
+    background: #414141;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.setting-next-allow:hover { background: #2dd888;}
+/*上传头像*/
+.reg-upava-tit {
+    line-height: 52px;
+    color: #414141;
+    font-size: 18px;
+}
+.reg-ava-err {
+    position: absolute;
+    top: 53px;
+    left: 0;
+    height: 18px;
+    width: 340px;
+    padding-left: 20px;
+    text-align: center;
+}
+.reg-ava-err i {
+    position: absolute;
+    left: 108px;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    background: url("spirit.svg")/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat -200px -700px;
+}
+.reg-ava-err span {
+    color: #dd2222;
+    font-size: 12px;
+    line-height: 18px;
+}
+.reg-upava {
+    margin: 44px auto 46px;
+    width: 240px;
+}
+.reg-upava:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+.reg-upava-l {
+    float: left;
+    width: 94px;
+}
+.reg-upava-l img {
+    width: 94px;
+    height: 94px;
+    border-radius: 50%;
+}
+.reg-upava-l span {
+    display: block;
+    width: 94px;
+    margin-top: 10px;
+    white-space: nowrap;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #212121;
+    font-size: 12px;
+    line-height: 18px;
+}
+.reg-upava a {
+    float: right;
+    width: 120px;
+    height: 120px;
+    background: #eee;
+}
+.reg-upava i {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 40px auto 0;
+    background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ -47px -2146px no-repeat;
+}
+.reg-upava:hover i { background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ 3px -2146px no-repeat;}
+
+.phone-defined {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+}
+.phone-defined-main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 360px;
+    height: 210px;
+    margin: -105px 0 0 -180px;
+    background: #fff;
+}
+.phone-defined-main h3 {
+    color: #414141;
+    font-size: 18px;
+    line-height: 50px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+.phone-def-code {
+    position: relative;
+    width: 240px;
+    margin:33px auto 0;
+}
+.phone-def-code .verify_error_icon {
+    right: 132px;
+}
+.phone-def-code input {
+    float: left;
+    width: 80px;
+    padding-left: 10px;
+    height: 40px;
+    font-size: 14px;
+    border: 1px solid #b6b3aa;
+    margin-bottom: 10px;
+    font-size: 12px;
+    
+}
+.phone-def-code  img {
+    float: right;
+    width: 110px;
+    height: 40px;
+    cursor: pointer;
+}
+.phone-defined-btn {
+    width: 240px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+}
+.phone-defined .phone-defined-forbid {
+    background: #b6b3aa;
+    cursor: auto;
+}
+.phone-defined .phone-defined-forbid:hover {
+    background: #b6b3aa;
+}
+
+
+/*密码重置*/
+.box_password {	
+  width: 440px;
+  height: 270px;
+  padding-top: 30px;
+  margin-left: -220px;
+  margin-top: -150px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+	text-align: center;
+	box-shadow: 0 0 3px 0 rgba(150,150,150,0.3);
+	background-color: #fff;
+	border-radius: 2px;
+}
+.box_password h2 {
+		font-size: 24px;
+		color: #92918d;
+		font-weight: normal;
+		margin: 0;
+		text-align: center;
+	}
+.password_input_box
+	{	position: relative;
+		text-align:center;
+		margin-top: 40px;
+	}
+.password_input_box input
+	{	display: block;
+		width: 228px;
+		height: 38px;
+		padding-left: 10px;
+		color: #8c8c8c;
+		background: #eee;
+		border-radius: 4px;
+		border: 1px solid #cfcdce;
+		font-size: 14px;
+		margin-bottom: 10px;
+		margin-left: 100px;
+	}
+.password_input_box input:focus
+	{	outline: none;}
+#password1,
+#email
+	{	border-top-left-radius: 4px;
+		border-top-right-radius: 4px;
+		border-bottom: 1px solid #dddddd;}
+#password2
+	{	border-bottom-left-radius: 4px;
+		border-bottom-right-radius: 4px;}
+#verify
+	{	width: 194px;
+		border-top: none;
+		border-right: none;
+		border-bottom-left-radius: 4px;
+		padding-right: 5px;}
+#v_image
+	{	height: 40px;
+		width: 106px;
+		overflow: hidden;
+		border-bottom-right-radius: 4px;
+		position: absolute;
+		left: 194px;
+		top: 40px;}
+#v_image img
+	{	height: 40px;
+		cursor: pointer;
+		margin-top: 1px;
+	}
+.next_step_button
+	{	width: 238px;
+		height: 36px;
+		border: 1px solid #dd2338;
+		background: #ff475c;
+		font-size: 14px;
+		color: #ffffff;
+		cursor: pointer;
+		margin-top: 16px;
+		background: url(spirit.png)/*tpa=http://paiwo.co/static/images/login/spirit.png*/ no-repeat 0 -34px;
+		border-radius: 4px;
+		z-index: 99;
+	}
+.next_step_button:focus
+	{	outline: none;}
+.next_step_button:hover{
+	background: #ff475c;
+}
+
+.error_info
+	{	margin: 0;
+		color: #f44458;
+		font-size: 1.2em;
+		position: absolute;
+		top: 90px;}
+.error_info img
+	{	vertical-align: middle;
+		padding-right: 5px;}
+.hide
+	{	display: none;}
+
+.newPwd_error_em,.pwd_error_em{
+	position: absolute;
+	top: 0px;
+	right: -50px;
+	width: 145px;
+	height: 41px;
+	line-height: 41px;
+	color: #505050;
+	font-size: 14px;
+	font-weight: 500px;
+	text-indent: 2px;
+	background: url(spirit.png)/*tpa=http://paiwo.co/static/images/login/spirit.png*/ no-repeat -104px -74px;
+	display: none;
+}
+.pwd_error_em{
+	top: 50px;
+}
+.newPwd_error_icon,.pwd_error_icon{
+	position: absolute;
+	top: 10px;
+	right: 108px;
+	width: 20px;
+	height: 20px;
+	background: url(spirit.png)/*tpa=http://paiwo.co/static/images/login/spirit.png*/ no-repeat 0 -74px;
+	display: none;
+}
+.pwd_error_icon{
+	top: 63px;
+}

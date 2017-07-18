@@ -1,0 +1,10 @@
+.about-con{width:1090px;margin-left:auto;margin-right:auto;margin-bottom:20px;background-color:#fff;box-shadow:0 0 5px 1px #dbdbdb;z-index:7}.aboutus{height:600px;font-size:0;background:url(About-Us-1.png)/*tpa=http://paiwo.co/static/images/about-us/About-Us-1.png*/center no-repeat;background-size:90%}.about-slogan{display:none}.team-members ul{height:1200px;font-size:0;background:url(About-Us-2.jpg)/*tpa=http://paiwo.co/static/images/about-us/About-Us-2.jpg*/center no-repeat;background-size:90%}
+.contact-us{
+  width: 1090px;
+  margin: 0 auto;
+}
+
+.contact-us a {
+  font-size: 12px;
+  color: #8a8880;
+}

@@ -1,0 +1,28 @@
+body
+	{
+		background-image:url(1-2.jpg)/*tpa=http://paiwo.co/static/images/1.jpg*/;
+		font-family:"Microsoft YaHei",STHeiti;
+		font-size:small;
+	}
+div.content
+	{
+		background-color:rgba(85,85,85,0.2);
+		color: #dddddd;
+		width:580px;
+		height:1500px;
+		margin:36px auto 80px auto;
+		padding:40px 100px 50px 100px;
+		border:1px solid #000000;
+		box-shadow:0px 0px 5px 5px #111111;
+		line-height:200%;
+	}
+h1
+	{
+		text-align:center;
+		margin-bottom:40px;
+		font-weight:normal;
+	}
+h3
+	{
+		font-weight:normal;
+	}

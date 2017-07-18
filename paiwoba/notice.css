@@ -1,0 +1,175 @@
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.notice-main {
+    padding-top: 57px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+.notice-main h2 {
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 52px;
+}
+.notice-line {
+    color: #8a8880;
+    width: 640px;
+    margin: 0 auto;
+    height: 39px;
+    line-height: 39px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+.notice-line-i { color: #dd2222; margin-right: 5px;}
+#his-notice { border-top: none;}
+
+/********通知列表*********/
+#no_notice {
+  font-size: 18px;
+  text-align: center;
+}
+.new-notice-list div:last-child{ border-bottom: none;}
+.notice-list {
+    height: 60px;
+    padding: 20px 0 20px 20px;
+    width: 620px;
+    margin: 0 auto;
+    cursor: pointer;
+    position: relative;
+    border-bottom: 1px solid #eee;
+    outline: 3px solid tranparent;
+    transition: outline-width .25s ease;
+    -webkit-transition: outline-width .25s ease;
+}
+.notice-list:hover {
+    outline: 3px solid #eee;
+}
+.notice-user-adv {
+    float: left;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+    overflow: hidden;
+}
+.notice-user-adv img,
+.notice-user-adv a {
+    display: block;
+    width: 60px;
+    height: 60px;
+}
+.notice-list-text {
+    height: 60px;
+    line-height: 60px;
+    color: #8a8880;
+    font-size: 16px;
+    float: left;
+}
+.notice-user-nic {
+    margin-right: 20px;
+    color: #212121;
+    display: inline-block;
+    line-height: 30px;
+    font-weight: bold;
+}
+.notice-time {
+    float: right;
+    color: #b6b3aa; 
+    font-size: 12px;
+    height: 60px;
+    line-height: 60px;
+    margin-left: 25px;
+    width: 80px;
+    text-align: center;
+}
+.notice-focus-pic {
+    width: 80px;
+    height: 80px;
+    float: right;
+    padding-top: -10px;
+    margin-top: -10px;
+}
+.notice-focus-pic img {
+    display: block;
+    width: 80px;
+    height: 80px; 
+}
+.notice-main .official { 
+    padding-bottom: 30px; 
+    height: auto;
+}
+.notice-main .official .notice-list-text {
+    width: 520px;
+    height: auto;
+}
+.official p {
+    line-height: 21px;
+    font-size: 14px;
+}
+.official .notice-time {
+    position: absolute;
+    right: 20px;
+}
+.notice-del {
+    position: absolute;
+}
+
+/********分页********/
+.page {
+    /*position: absolute;*/
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.page-in { display: inline-block;}
+.page-no { display: inline-block;}
+.page-no .page-none{ display: none;}
+.page a,.page span {
+    display: inline-block;
+    font-size: 14px;
+    color: #212121;
+    line-height: 20px;
+    padding: 0 9px;
+}
+.page a:hover { color: #5a7f88;}
+.page .page-cur{ background: #eee;}
+.page .page-cur:hover { color: #212121;}
+.page .page-pre {
+    cursor: pointer;
+}
+.page .page-next {
+    cursor: pointer;
+}
+.page .page-none { color: #8a8880;}
+.page .page-first {
+    color: #8a8880;
+    cursor: auto;
+}
+.page .page-first:hover{
+    color: #8a8880;
+    font-weight: 400;
+}
+.page-in i {
+  width: 1px;
+  height: 15px;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #d8d6d0;
+  margin-top: 2px;
+}
+
+
+
+
+
+
+
+
+
+

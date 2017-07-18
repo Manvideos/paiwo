@@ -1,0 +1,89 @@
+.push_button { overflow: hidden;}
+li { list-style: decimal;}
+.login_module li{
+  list-style:none;
+}
+body { background: #fff;}
+#main_box {
+  background: #fff;
+}
+.ir-main-box {
+  width: 720px;
+  margin: 0 auto;
+  padding-top: 94px;
+  position: relative;
+}
+.ir-logo {
+  width: 135px;
+  height: 30px;
+  margin: 0 auto 54px auto;
+  text-indent: -999em;
+  background: url(ir-logo.png)/*tpa=http://paiwo.co/static/images/lightroom/ir-logo.png*/;
+}
+.h2 {
+  width: 262px;
+  line-height: 40px;
+  margin: 0 auto 48px auto;
+  font-size: 24px;
+  text-align: center;
+}
+.p {
+  line-height: 20px;
+  width: 620px;
+}
+.download { color: #414141;}
+.download:hover { color: #dd2222;}
+.span {
+  width: 250px;
+  display: block;
+  line-height: 20px;
+  margin-top: 26px;
+}
+.seciton-one-img {
+  margin: 62px auto 50px auto;
+  display: block; 
+}
+.section-two-h2 {
+  width: 230px;
+  margin-bottom: 40px;
+}
+ol {
+  width: 568px;
+  padding-left: 36px;
+  margin: 26px 0 35px 0;
+}
+ol li { line-height: 24px;}
+.seciton-two { margin: 35px auto 30px auto;}
+.seciton_four { 
+  margin: 35px auto 36px auto;
+  position: relative;
+  width: 890px;
+  height: 559px;
+  left: -85px;
+}
+.seciton-one-4 { margin-top: 0;}
+.section-five {
+  width: 334px;
+  height: 415px;
+  margin: 62px auto 50px;
+}
+.section-six {
+  width: 1050px;
+  height: 857px;
+  margin: 62px 0 50px -165px;
+}
+.section-seven {
+  width: 419px;
+  height: 432px;
+  margin: 62px auto 50px;
+}
+.section-eight {
+  width: 794px;
+  height: 421px;
+  margin: 62px auto 50px;
+}
+.section-nine {
+  width: 446px;
+  height: 593px;
+  margin: 62px auto 50px;
+}

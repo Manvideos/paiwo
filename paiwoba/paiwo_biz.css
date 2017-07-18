@@ -1,0 +1,339 @@
+body { background: #2d2c2c; overflow: hidden;}
+#box{
+  width: 100%;
+  height: 100%;
+}
+li { list-style: none;}
+.clearfix {
+  width: 1190px;
+  margin: 0 auto;
+  position: relative;
+}
+#header {
+  width: 100%;
+  height: 100vh; 
+  background: url(1-1.jpg)/*tpa=http://paiwo.co/static/images/biz/1.jpg*/ no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header {
+  height: 100px;
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid #969696;
+  position: relative;
+}
+.biz-top h1 {
+  text-indent: -999em;
+  width: 218px;
+  height: 63px;
+  background: url(logo-1.png)/*tpa=http://paiwo.co/static/images/biz/logo.png*/ no-repeat;
+  background-size: 218px 63px;
+  position: absolute;
+  left: 23px;
+  top: 18px;
+}
+.biz-top span {
+  position: absolute;
+  right: 15px;
+  top: 40px;
+  width: 243px;
+  height: 20px;
+  background: url(right-top-1.png)/*tpa=http://paiwo.co/static/images/biz/right-top.png*/ no-repeat;
+  background-size: 243px 20px;
+}
+.header-middle_p { 
+  width: 1049px;
+  height: 305px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -153px 0 0 -525px;
+  background: url(header-milddle.png)/*tpa=http://paiwo.co/static/images/biz/header-milddle.png*/ no-repeat;
+  background-size: 1049px 305px;
+}
+.header-arrow {
+  width: 25px;
+  height: 44px;
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  margin-left: -13px;
+  background: url(mouse-icon-1.png)/*tpa=http://paiwo.co/static/images/biz/mouse-icon.png*/ no-repeat;
+  background-size: 25px 44px;
+}
+.down-arrow {
+  position: absolute;
+  left: 50%;
+  margin: 20px 0 0 -17px;
+  width: 34px;
+  height: 19px;
+  background: url(arrow.png)/*tpa=http://paiwo.co/static/images/biz/arrow.png*/ no-repeat;
+  background-size: 34px 19px;
+  z-index: 55;
+  animation: arrowmove 1.5s infinite ease;
+  -moz-animation: arrowmove 1.5s infinite ease;
+  -ms-animation: arrowmove 1.5s infinite ease;
+  -webkit-animation: arrowmove 1.5s infinite ease;
+  cursor: pointer;
+}
+@keyframes arrowmove {
+  0%,
+  100% { transform:none;}
+  60% { transform:translateY(10px);}
+}
+@-webkit-keyframes arrowmove {
+  0%,
+  100% { -webkit-transform:none;}
+  60% { -webkit-transform:translateY(10px);}
+}
+@-moz-keyframes arrowmove {
+  0%,
+  100% { -moz-transform:none;}
+  60% { -moz-transform:translateY(10px);}
+}
+@-ms-keyframes arrowmove {
+  0%,
+  100% { -moz-transform:none;}
+  60% { -moz-transform:translateY(10px);}
+}
+.header-down-arrow { bottom: -40px; margin-top: 0;}
+.three-section {
+  width: 100%;
+  background: url(c_bg.jpg)/*tpa=http://paiwo.co/static/images/biz/c_bg.jpg*/ no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.three-section>div {
+  width: 100%;
+  border-bottom: 1px solid #6c6b6b;
+  position: relative;
+  margin-top: -1px;
+}
+.three-section>div div {
+  min-height: 640px;
+  position: relative;
+}
+
+.one h3 {
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  margin-left: -141px;
+  width: 282px;
+  height: 68px;
+  text-indent: -999em;
+  background: url(section-one-title-1.png)/*tpa=http://paiwo.co/static/images/biz/section-one-title.png*/ no-repeat;
+  background-size: 282px 68px;
+}
+.one ul {
+  width: 858px;
+  height: 383px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -191px 0 0 -429px;
+}
+.one li { 
+  float: left;
+  width: 168px;
+  height: 108px;
+  color: #fff;
+  background-size: 188px auto;
+  margin-top: 90px;
+  padding-top: 275px;
+  padding-left: 20px;
+}
+.one li h4 { 
+  font-size: 16px;
+  text-align: center;
+  line-height: 54px;
+}
+.one li p { 
+  font-size: 12px;
+  line-height: 16px;
+}
+.one_span1 { background: url(one_span1-1.png)/*tpa=http://paiwo.co/static/images/biz/one_span1.png*/ no-repeat; margin-right: 147px;}
+.one_span2 { background: url(one_span2-1.png)/*tpa=http://paiwo.co/static/images/biz/one_span2.png*/ no-repeat; margin-right: 147px;}
+.one_span3 { background: url(one_span3-1.png)/*tpa=http://paiwo.co/static/images/biz/one_span3.png*/ no-repeat;}
+
+/*section-two*/
+.two h3 {
+  width: 407px;
+  margin-left: -204px;
+  background: url(section-two-title-1.png)/*tpa=http://paiwo.co/static/images/biz/section-two-title.png*/ no-repeat;
+  background-size: 407px 68px;
+}
+.two ul {
+  width: 1005px;
+  height: 294px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -97px 0 0 -503px;
+}
+.two li {
+  width: 297px;
+  height: 84px;
+  line-height: 16px;
+  padding: 223px 0 0 20px;
+  float: left;
+  background-size: 317px auto;
+  margin-top: 90px;
+}
+.two_span1 { background: url(two_span1-1.png)/*tpa=http://paiwo.co/static/images/biz/two_span1.png*/ no-repeat; margin-right: 24px;}
+.two_span2 { background: url(two_span2-1.png)/*tpa=http://paiwo.co/static/images/biz/two_span2.png*/ no-repeat; margin-right: 24px; text-align: center;}
+.two_span3 { background: url(two_span3-1.png)/*tpa=http://paiwo.co/static/images/biz/two_span3.png*/ no-repeat; text-align: center;}
+
+/*section-three*/
+.three h3 {
+  width: 486px;
+  height: 97px;
+  margin-left: -241px;
+  background: url(section-three-title-1.png)/*tpa=http://paiwo.co/static/images/biz/section-three-title.png*/ no-repeat;
+  background-size: 486px 97px;
+}
+.three_span1 { background: url(three_span1-1.png)/*tpa=http://paiwo.co/static/images/biz/three_span1.png*/ no-repeat; margin-right: 24px; text-align: center;}
+.three_span2 { background: url(three_span2-1.png)/*tpa=http://paiwo.co/static/images/biz/three_span2.png*/ no-repeat; margin-right: 24px; text-align: center;}
+.three_span3 { background: url(three_span3-1.png)/*tpa=http://paiwo.co/static/images/biz/three_span3.png*/ no-repeat;}
+.inner-arrow {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  margin-top: 0;
+}
+.img-full {
+  width: 100%;
+  height: 720px;
+  background: url(3-1.jpg)/*tpa=http://paiwo.co/static/images/biz/3.jpg*/ no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+.foot-img-full { 
+  background: url(2-1.jpg)/*tpa=http://paiwo.co/static/images/biz/2.jpg*/ no-repeat;
+  height: 977px;
+  background-size: 100%;
+  position: relative;
+}
+.foot-logo {
+   height: 257px;
+   width: 1190px;
+   background: url(foot-logo-1.png)/*tpa=http://paiwo.co/static/images/biz/foot-logo.png*/ no-repeat;
+   background-size: 1190px 257px; 
+}
+.intro {
+  height: 720px;
+  background: url(liucheng-1.png)/*tpa=http://paiwo.co/static/images/biz/liucheng.png*/ no-repeat;
+  background-size: cover;
+}
+.coropration { 
+  background: url(cor-1.png)/*tpa=http://paiwo.co/static/images/biz/cor.png*/ no-repeat;
+  background-size: cover;
+}
+.dian {
+  width: 12px;
+  height: 80px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin: -40px 0 0 550px;
+  z-index: 999;
+  display: none;
+}
+.dian li {
+  width: 12px;
+  height: 12px;  
+  margin-bottom: 25px;
+  cursor: pointer;
+  position: relative;
+}
+.dian li i {
+  background: #7e7d7d;
+  width: 12px;
+  height: 12px;
+  transform: scale(0.7);
+  -webkit-transform: scale(0.7);
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+}
+.three-section .section-three { border: none;}
+.dian .li_cur { 
+  background: #fff;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+}
+.dian li span {
+  width: 100px;
+  text-align: left;
+  color: #fff;
+  position: absolute;
+  right: -110px;
+  top: -2px;
+  font-size: 12px;
+  display: none;
+}
+.dian li:nth-child(3) { margin-bottom: 0;}
+.dian .li_hover {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  animation: hover 1.5s infinite ease;
+  -moz-animation: hover 1.5s infinite ease;
+  -ms-animation: hover 1.5s infinite ease;
+  -webkit-animation: hover 1.5s infinite ease;
+}
+@keyframes hover {
+  0%,
+  100% { transform:scale(0.7);}
+  60% { transform: scale(1);}
+}
+@-webkit-keyframes hover {
+  0%,
+  100% { transform: scale(0.7);}
+  40% { transform: scale(1);}
+}
+@-moz-keyframes hover {
+  0%,
+  100% { transform: scale(0.7);}
+  40% { transform: scale(1);}
+}
+@-ms-keyframes hover {
+  0%,
+  100% { transform: scale(0.7);}
+  40% { transform: scale(1);}
+}
+
+.header-middle .down-arrow{ display: block;}
+
+.header-middle_p {
+  -webkit-transform:translate3d(0,0,0);
+  -moz-transform:translate3d(0,0,0);
+  -ms-transform:translate3d(0,0,0);
+  transform:translate3d(0,0,0);
+  opacity: 0;
+  -webkit-transition:all 1s cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  -moz-transition:all 1s cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  -ms-transition:all 1s cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  transition:all 1s cubic-bezier(0.215, 0.610, 0.355, 1.000);
+}
+
+
+.header-middle_p.active {
+  -webkit-transform:translate3d(0,-60px,0);
+  -moz-transform:translate3d(0,-60px,0);
+  -ms-transform:translate3d(0,-60px,0);
+  transform:translate3d(0,-60px,0);
+  opacity: 1;
+}
+
+
+.one_span1,.one_span2,.one_span3,.two_span1,.two_span2,.two_span3,.three_span1,.three_span2,.three_span3  {
+  opacity: 0;
+}
+
+
+
+
+

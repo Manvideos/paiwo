@@ -1,0 +1,500 @@
+/*顶部banner*/
+#main_box{
+    padding-top: 0;
+}
+.pocket-header {
+	position: relative;
+	width: 100%;
+	height: 640px;
+}
+.pocket-header-back {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	height: 640px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.pocket-header-shadow {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 2;
+	width: 100%;
+	height: 640px;
+	background-color: rgba(0,0,0,.2);
+}
+.pocket-header-shadow i {
+	position: absolute;
+  	left: 0;
+  	top: 0;
+  	z-index: 2;
+  	width: 100%;
+  	height: 100px;
+    background: -webkit-linear-gradient(top, rgba(0,0,0,.4), rgba(0,0,0,0));
+    background: -linear-gradient(top, rgba(0,0,0,.4), rgba(0,0,0,0));
+}
+.pocket-header-tit {
+/*
+	position: absolute;
+  	bottom: 76px;
+  	left: 50%;
+  	margin-left: -300px;
+  	z-index: 3;
+  	width: 600px;
+  	height: 116px;
+*/
+    position: absolute;
+  	bottom: 76px;
+  	left: 50%;
+  	margin-left: -40%;
+  	z-index: 3;
+  	width: 80%;
+  	height: 116px;
+    
+    
+}
+.pocket-header-tit h2 {
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #fff;
+	font-size: 48px;
+	line-height: 72px;
+}
+.pocket-header-tit h3 {
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #eee;
+	font-size: 18px;
+	line-height: 44px;
+}
+
+/*用户信息*/
+.pocket-user-info {
+	width: 880px;
+	height: 44px;
+	padding: 14px 0 34px 0;
+	margin: 30px auto 0;
+	border-width: 1px 0;
+	border-color: #d8d6d0;
+	border-style: solid; 
+}
+.pocket-user-ava { float: left;}
+.pocket-user-ava img {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+.pocket-user-name {
+	float: left;
+	padding-left: 20px;
+}
+.pocket-user-name a{
+	display: block;
+	max-width: 190px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	color: #212121;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 30px;
+}
+.pocket-user-name span {
+	font-size: 12px;
+	color: #8a8880;
+	line-height: 30px;
+}
+.studio_cieclebox { float: right;}
+.studio_cieclebox button {
+  width: 80px;
+  height: 32px;
+  border: 1px solid #414141;
+  border-radius: 15px;
+  float: left;
+  cursor: pointer;
+  color: #414141;
+  background: #fff;
+}
+.cieclebox_concen {
+  position: relative;
+  margin-right: 10px;
+}
+.cieclebox_concen:hover{
+    color: #fff;
+	background: #414141;
+}
+.cieclebox_message:hover{
+    color: #fff;
+	background: #414141;
+}
+button.fol{
+    background: #414141;
+    color: white;
+    padding-left: 10px;
+}
+.fol:hover{
+    background: #eee;
+    color: #414141;
+    border: 1px solid #eee;
+    padding-left: 0px;
+}
+
+
+/*评论*/
+.tab_buttons_left .pocket-like { 
+	left: 10px;
+}
+.tab_buttons_right .pocket-rec {
+	left: 8px;
+}
+.photo_comment_tab {
+	margin-top: 56px;
+	border-bottom: 1px solid #eee;
+}
+.big_photo_comment {
+	width: 880px;
+	margin: 0 auto;
+}
+.photo_comment_tab .comment_tab_share { float: right;}
+.comment_tab_share a { margin: 6px 0 0 12px;}
+.comment_tab_share span {
+	float: left;
+	font-size: 12px;
+	color: #8a8880;
+	line-height: 30px;
+}
+.tab_buttons_right span, .tab_buttons_left span {
+	font-size: 12px;
+	color: #414141;
+}
+.tab_buttons_right i, .tab_buttons_left i { top: 7px;}
+.comment_content_input { width: 710px;}
+.comment_content_input textarea { 
+	border-radius: 0;
+	width: 600px;
+}
+.comment_content_input button { border-radius: 0;}
+.resend_sb a { 
+	font-size: 12px;
+	color: #414141;
+    cursor: text;
+}
+.resend_sb{
+    cursor: text;
+    float: left;
+}
+.resend_sb a span { color: #5a7f88;}
+.snick { font-weight: bold;}
+.comment_content_input { margin: 30px auto 0;}
+.comment_content_box { margin-top: 20px; float: left;}
+.comment_respond_box {
+	position: relative;
+	float: left;
+	width: 676px;
+	height: 30px;
+	padding: 17px 20px;
+	background: #f5f5f5;
+	margin-top: 16px;
+	border: 1px solid #eee;
+}
+.comment_content_box{
+    height: auto;
+}
+.comment_respond_textarea {
+	float: left;
+  	width: 580px;
+  	height: 30px;
+  	padding-left: 10px;
+  	font-size: 12px;
+  	border: 1px solid #dbd5d5;
+  	color: #a8a8a8;
+  	line-height: 30px;
+  	background: #fff;
+}
+.comment_content_list .comment_respond_textarea .resend_sb {
+	float: left;
+    max-width: 175px;
+}
+/*
+.comment_respond_textarea textarea {
+	float: left;
+	min-width: 80%;
+	color: #a8a8a8;
+	padding: 8px 0;
+	height: 14px;
+	line-height: 14px;
+	border: none;
+	white-space: nowrap;
+	word-wrap: break-word;
+	resize: none;
+	overflow: hidden;
+	outline: none;
+}
+*/
+.comment_content_input .send-text{
+    float: left;
+	color: #a8a8a8;
+	height: 36px;
+	line-height: 26px;
+	border: 1px solid #dbd5d5;
+	white-space: nowrap;
+	word-wrap: break-word;
+	resize: none;
+	outline: none;
+    width: 600px;
+    font-size: 16px;
+    text-indent: 10px;
+    
+}
+.send-text:hover{
+    border:  1px solid #ff5367
+}
+.res-text{
+      float: left;
+  min-width: 390px;
+  color: #a8a8a8;
+  padding: 8px 0;
+  height: 14px;
+  line-height: 14px;
+  border: none;
+  white-space: nowrap;
+  word-wrap: break-word;
+  resize: none;
+  overflow: hidden;
+  outline: none;
+}
+
+
+
+.comment_respond_box button {
+	float: right;
+	width: 70px;
+  	height: 30px;
+  	background: #414141;
+  	color: #fff;
+  	border: none;
+  	cursor: pointer;
+  	transition: background 0.4s;
+  	-moz-transition: background 0.4s;
+  	-ms-transition: background 0.4s;
+  	-webkit-transition: background 0.4s;
+}
+.comment_tab_coll { margin-left: 490px;}
+.comment_tab_coll a {
+	font-size: 12px;
+	color: #8a8880;
+	line-height: 30px;
+}
+.comment_respond_textarea:hover { border: 1px solid #ff5367;}
+.comment_respond_box button:hover { 
+  background: #ff5367;
+}
+.content{
+    width: 900px;
+    margin: 50px auto 0px;    
+}
+.text-center{
+    text-align: center
+}
+.text-right{
+    text-align: right
+}
+.p-vir-blo{
+    position: relative;
+    overflow: hidden;
+    float: left;
+    margin: 5px;
+    line-height: 24px;
+}
+.p-vir-blo>img{
+    position: absolute;
+    
+}
+
+
+
+.content:after {
+	display: block;
+	clear: both;
+	content: "";
+}
+
+
+#comment-wrap{
+      overflow: hidden;
+}
+
+/*底部导航*/
+.pocket-tip {
+    width: 40px;
+    position: fixed;
+    right: 20px;
+    bottom: 80px;
+    z-index: 100;
+}
+.pocket-tip a { width: 40px; height: 40px; background-color: #d8d6d0; display: block;}
+.pocket-tip .pocket-go-top { background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/ no-repeat -300px -350px;}
+.pocket-go-top:hover { background: url(go_top_hover.png)/*tpa=http://paiwo.co/static/images/pocket/go_top_hover.png*/;}
+.pocket-edite { background: url(edite.png)/*tpa=http://paiwo.co/static/images/pocket/edite.png*/;}
+.pocket-edite:hover { background: url(edite_hover.png)/*tpa=http://paiwo.co/static/images/pocket/edite_hover.png*/;}
+.pocket-delet { background: url(delete-1.png)/*tpa=http://paiwo.co/static/images/pocket/delete.png*/;}
+.pocket-delet:hover { background: url(delete_hover.png)/*tpa=http://paiwo.co/static/images/pocket/delete_hover.png*/;}
+.pocket-showbig { background: url(showpic.png)/*tpa=http://paiwo.co/static/images/pocket/showpic.png*/;}
+.pocket-showbig:hover { background: url(showpic_hover.png)/*tpa=http://paiwo.co/static/images/pocket/showpic_hover.png*/;}
+
+.back{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+.message{
+    position: absolute;
+    width: 440px;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    border-radius: 2px;
+    height: 250px;
+    margin: -125px 0 0 -220px;
+        
+}
+.message img{
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+.message h3{
+    text-align: center;
+    height: 40px;
+    border-bottom: 1px solid #eee;
+    color: #6d6d6d;
+    line-height: 43px;
+    font-size: 17px;
+}
+.mes-line{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 60px;
+    line-height: 30px;
+    color: #414141;
+}
+.mes-btn{
+    width: 80px;
+    height: 40px;
+    background: #414141;
+    position: absolute;
+    bottom: 33px;
+    left: 114px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    border: 1px solid #414141;
+    cursor: pointer;   
+}
+.mes-btn:hover{
+    background: #ff475c;
+    border-color: #ff475c;
+}
+.mes-cel{
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    bottom: 33px;
+    left: 257px;
+    border: 1px solid #d8d6d0;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.mes-cel:hover{
+    background: #eee;
+    border-color: #eee;
+}
+
+
+.f-a{
+  position: absolute;
+  margin: 3px 0 0 -15px;
+  width: 12px;
+  height: 12px;
+  background-image: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/;
+  background-repeat: no-repeat;
+  background-position: -99px -247px;    
+}
+.f-b{
+  position: absolute;
+  margin: 2px 0 0 -15px;
+  width: 12px;
+  height: 12px;
+  background-image: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/;
+  background-repeat: no-repeat;
+  background-position: -149px -247px;
+}
+
+
+
+.comment_respond_box{
+    margin-left: 77px;
+}
+.comment_content_list li dl dd{
+    width: 591px;
+    word-break: break-all;
+}
+.comment-wrap{
+    margin: 0px;
+    float: left;
+    width: 400px;
+}
+
+.pocket-hot {
+  width: 78px;
+  height: 65px;
+  padding-top: 13px;
+  margin: 46px auto 0;
+  border-radius: 50%;
+  border: 1px solid #e3e2dd;
+  text-align: center;
+}
+.pocket-hot-ch {
+  width: 30px;
+  font-size: 12px;
+  color: #8a8880;
+  line-height: 22px;
+  border-bottom: 1px solid #d8d6d0;
+  margin: 0 auto;
+}
+.pocket-hot-num {
+  display: block;
+  font-size: 14px;
+  color: #e3e2dd;
+  line-height: 28px;
+  max-width: 60px;
+  margin: 0 auto;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.reply_name{
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+       max-width: 150px
+    
+}
+.resend_sb span{
+    float: left;
+}

@@ -1,0 +1,218 @@
+body { background: #2d2c2c;}
+#box{
+	width: 100%;
+	height: 100%;
+}
+.clearfix {
+  width: 1190px;
+  margin: 0 auto;
+  position: relative;
+}
+#header {
+  width: 100%;
+  height: 740px;
+  background: url(1.jpg)/*tpa=http://paiwo.co/static/images/biz/paiwo_biz_678/1.jpg*/ no-repeat;
+  background-position: center;
+  position: relative;
+}
+.header {
+  height: 100px;
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid #969696;
+  position: relative;
+}
+.biz-top h1 {
+  text-indent: -999em;
+  width: 218px;
+  height: 63px;
+  background: url(logo.png)/*tpa=http://paiwo.co/static/images/biz/paiwo_biz_678/logo.png*/ no-repeat;
+  position: absolute;
+  left: 23px;
+  top: 18px;
+}
+.biz-top span {
+  position: absolute;
+  right: 15px;
+  top: 40px;
+  width: 243px;
+  height: 20px;
+  background: url(right-top.png)/*tpa=http://paiwo.co/static/images/biz/paiwo_biz_678/right-top.png*/ no-repeat;
+}
+.header-middle_p { 
+  width: 1049px;
+  height: 305px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -153px 0 0 -525px;
+  background: url(header-middle.png)/*tpa=http://paiwo.co/static/images/biz/paiwo_biz_678/header-middle.png*/ no-repeat;
+  z-index: 55;
+}
+.header-arrow {
+  width: 25px;
+  height: 44px;
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  margin-left: -13px;
+  background: url(mouse-icon.png)/*tpa=http://paiwo.co/static/images/biz/paiwo_biz_678/mouse-icon.png*/ no-repeat;
+}
+.three-section {
+  width: 100%;
+  height: 1920px;
+  background: url(2.jpg)/*tpa=http://paiwo.co/static/images/biz/paiwo_biz_678/2.jpg*/ no-repeat;
+  position: relative;
+}
+.three-section_div {
+  width: 100%;
+  border-bottom: 1px solid #6c6b6b;
+}
+.three-section_div div {
+  height: 640px;
+  position: relative;
+}
+.one h3 {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  margin-left: -141px;
+  width: 282px;
+  height: 68px;
+  text-indent: -999em;
+  background: url(section-one-title.png)/*tpa=http://paiwo.co/static/images/biz/paiwo_biz_678/section-one-title.png*/ no-repeat;
+}
+.one ul {
+  width: 858px;
+  height: 383px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -191px 0 0 -429px;
+}
+.one li { 
+  float: left;
+  width: 168px;
+  height: 108px;
+  padding-top: 275px;
+  padding-left: 20px;
+  color: #fff;
+}
+.one li h4 { 
+  font-size: 16px;
+  text-align: center;
+  line-height: 54px;
+}
+.one li p { 
+  font-size: 12px;
+  line-height: 16px;
+}
+.one_span1 { background: url(one_span1.png)/*tpa=http://paiwo.co/static/images/biz/paiwo_biz_678/one_span1.png*/ no-repeat; margin-right: 147px;}
+.one_span2 { background: url(one_span2.png)/*tpa=http://paiwo.co/static/images/biz/paiwo_biz_678/one_span2.png*/ no-repeat; margin-right: 147px;}
+.one_span3 { background: url(one_span3.png)/*tpa=http://paiwo.co/static/images/biz/paiwo_biz_678/one_span3.png*/ no-repeat;}
+
+/*section-two*/
+.two h3 {
+  width: 407px;
+  margin-left: -204px;
+  background: url(section-two-title.png)/*tpa=http://paiwo.co/static/images/biz/paiwo_biz_678/section-two-title.png*/ no-repeat;
+}
+.two ul {
+  width: 1005px;
+  height: 294px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -97px 0 0 -503px;
+}
+.two li {
+  width: 297px;
+  height: 84px;
+  padding-top: 223px;
+  float: left;
+}
+.two_span2 p,.two_span3 p,.three_span1 p,.three_span2 p { text-align: center;}
+.two_span1 { background: url(two_span1.png)/*tpa=http://paiwo.co/static/images/biz/paiwo_biz_678/two_span1.png*/ no-repeat; margin-right: 24px;}
+.two_span2 { background: url(two_span2.png)/*tpa=http://paiwo.co/static/images/biz/paiwo_biz_678/two_span2.png*/ no-repeat; margin-right: 24px;}
+.two_span3 { background: url(two_span3.png)/*tpa=http://paiwo.co/static/images/biz/paiwo_biz_678/two_span3.png*/ no-repeat;}
+
+/*section-three*/
+.three h3 {
+  width: 486px;
+  height: 97px;
+  margin-left: -241px;
+  background: url(section-three-title.png)/*tpa=http://paiwo.co/static/images/biz/paiwo_biz_678/section-three-title.png*/ no-repeat;
+}
+.three_span1 { background: url(three_span1.png)/*tpa=http://paiwo.co/static/images/biz/paiwo_biz_678/three_span1.png*/ no-repeat; margin-right: 24px;}
+.three_span2 { background: url(three_span2.png)/*tpa=http://paiwo.co/static/images/biz/paiwo_biz_678/three_span2.png*/ no-repeat; margin-right: 24px;}
+.three_span3 { background: url(three_span3.png)/*tpa=http://paiwo.co/static/images/biz/paiwo_biz_678/three_span3.png*/ no-repeat;}
+
+.img-full {
+  width: 100%;
+  height: 720px;
+  background: url(3.jpg)/*tpa=http://paiwo.co/static/images/biz/paiwo_biz_678/3.jpg*/ no-repeat;
+  position: relative;
+}
+.foot-img-full { 
+  background: url(2.jpg)/*tpa=http://paiwo.co/static/images/biz/paiwo_biz_678/2.jpg*/ no-repeat;
+  height: 977px;
+  position: relative;
+}
+.foot-logo {
+   height: 257px;
+   width: 1063px;
+   background: url(foot-logo.png)/*tpa=http://paiwo.co/static/images/biz/paiwo_biz_678/foot-logo.png*/ no-repeat;
+}
+.intro {
+  height: 720px;
+  width: 1005px;
+  background: url(liucheng.png)/*tpa=http://paiwo.co/static/images/biz/paiwo_biz_678/liucheng.png*/ no-repeat;
+}
+.coropration {
+  width: 1063px; 
+  background: url(cor.png)/*tpa=http://paiwo.co/static/images/biz/paiwo_biz_678/cor.png*/ no-repeat;
+}
+.dian {
+  width: 12px;
+  height: 80px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin: -40px 0 0 550px;
+  z-index: 999;
+  display: none;
+}
+.dian li {
+  width: 7px;
+  height: 7px;  
+  margin-bottom: 25px;
+  cursor: pointer;
+  position: relative;
+}
+.dian li i {
+  background: #7e7d7d;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+}
+.three-section .section-three { border: none;}
+.dian .li_cur { background: #fff;}
+.dian li span {
+  width: 100px;
+  text-align: left;
+  color: #fff;
+  position: absolute;
+  right: -110px;
+  top: -2px;
+  font-size: 12px;
+  opacity: 0
+}
+
+
+
+
+
+
+

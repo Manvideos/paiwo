@@ -1,0 +1,2270 @@
+.photo_comment_tab li,
+.tab_buttons_left {
+    float: left
+}
+
+.photo_comment_coll a,
+.photo_comment_line span {
+    line-height: 32px;
+    color: #8a8880;
+    font-size: 12px
+}
+
+.comment_content_input button,
+.comment_respond_box button {
+    -ms-transition: background .4s;
+    -webkit-transition: background .4s;
+    background: #414141;
+    -webkit-transition: background .4s;
+    transition: background .4s;
+    -moz-transition: background .4s
+}
+
+.big_pic_main:after,
+.comment_content_input:after,
+.comment_content_list li:after,
+.main_right_imgbox:after,
+.main_right_title:after,
+.photo_comment_line:after,
+.photo_comment_tips:after,
+.photo_maylike_imgbox:after {
+    content: ""
+}
+
+.black_bac {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 101;
+    overflow-y: auto;
+    display: none;
+    background-color: rgba(0, 0, 0, .83)
+}
+
+.big_pic_main {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1190px;
+    margin: 60px auto 0 -560px
+}
+
+.big_pic_main:after {
+    display: table;
+    clear: both
+}
+
+.big_main_left {
+    width: 900px;
+    float: left;
+    margin: 0 50px 60px 0
+}
+
+.big_main_left section {
+    box-shadow: 0 0 5px 0 rgba(150, 150, 150, .3);
+    border-radius: 2px
+}
+
+.big_main_left .big_photo_box {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 2px 2px 0 0;
+    overflow: hidden
+}
+
+.big_photo_box a {
+    cursor: auto
+}
+
+.big_pic_main .big_photo_comment {
+    background: #fff;
+    width: 760px;
+    padding: 15px 70px 36px;
+    border-radius: 0 0 2px 2px
+}
+
+.photo_comment_tab {
+    height: 40px
+}
+
+.comment_tab_buttons {
+    width: 171px;
+    margin-right: 28px;
+    height: 40px
+}
+
+.comment_tab_buttons button {
+    width: 64px;
+    height: 30px;
+    border: 1px solid #dbd5d5;
+    border-radius: 1px;
+    background: #fff;
+    position: relative;
+    cursor: pointer;
+    color: #414141
+}
+
+.tab_buttons_left.tab_liked i {
+    background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/-248px -298px no-repeat
+}
+
+.tab_buttons_right.tab_recd i {
+    background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/-348px -298px no-repeat
+}
+
+.tab_buttons_left i,
+.tab_buttons_right i {
+    position: absolute;
+    top: 7px;
+    left: 8px;
+    width: 14px;
+    height: 14px
+}
+
+.tab_buttons_left i {
+    background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/-298px -298px no-repeat
+}
+
+.tab_buttons_right i {
+    background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/-398px -298px no-repeat
+}
+
+.comment_tab_buttons .bigpic-star-icon {
+    width: 30px;
+    float: right;
+    position: relative
+}
+
+.bigpic-star-icon i {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 12px;
+    height: 12px
+}
+
+.pocket-star {
+    background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/-400px -350px no-repeat
+}
+
+.pocket-stared {
+    background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/-350px -350px no-repeat
+}
+
+.bigpic-star-icon:hover {
+    border-color: #414141
+}
+
+.tab_buttons_right {
+    float: left;
+    margin: 0 6px
+}
+
+.tab_buttons_left span,
+.tab_buttons_right span {
+    font-size: 12px;
+    line-height: 26px;
+    width: 40px;
+    margin-left: 20px
+}
+
+.tab_buttons_left:hover {
+    border-color: #cf2626
+}
+
+.tab_buttons_right:hover {
+    border-color: #414141
+}
+
+.photo_comment_line {
+    margin-top: 50px;
+    border-bottom: 1px solid #eee
+}
+
+.photo_comment_line:after {
+    display: block;
+    clear: both
+}
+
+.photo_comment_line li {
+    float: left
+}
+
+.photo_comment_line .photo_comment_coll {
+    float: right;
+    margin-right: 30px
+}
+
+.photo_comment_hot {
+    width: 200px
+}
+
+.photo_comment_hot span {
+    letter-spacing: 4px
+}
+
+.photo_comment_hot i {
+    font-size: 14px;
+    color: #414141;
+    vertical-align: middle
+}
+
+.photo_comment_coll {
+    margin-left: 325px
+}
+
+.photo_comment_coll a:hover {
+    color: #414141
+}
+
+.comment_tab_share a {
+    float: left;
+    width: 23px;
+    height: 23px;
+    margin: 6px 0 0 12px
+}
+
+.photo_comment_line .comment_tab_share {
+    float: right
+}
+
+.comment_tab_share span {
+    float: left
+}
+
+.tab_share_weibo {
+    background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/0 -1700px no-repeat
+}
+
+.tab_share_weibo:hover {
+    background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/0 -1900px no-repeat
+}
+
+.tab_share_wechat {
+    background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/-100px -1700px no-repeat
+}
+
+.tab_share_wechat:hover {
+    background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/-100px -1900px no-repeat
+}
+
+.tab_share_moments {
+    background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/-200px -1700px no-repeat
+}
+
+.tab_share_moments:hover {
+    background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/-200px -1900px no-repeat
+}
+
+.tab_share_qq {
+    background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/-300px -1700px no-repeat
+}
+
+.tab_share_qq:hover {
+    background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/-300px -1900px no-repeat
+}
+
+.tab_share_qzone {
+    background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/0 -1800px no-repeat
+}
+
+.tab_share_qzone:hover {
+    background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/0 -2000px no-repeat
+}
+
+.big_pic_main .comment_tab_copyright {
+    float: right;
+    margin-top: 5px;
+    width: 73px;
+    height: 20px
+}
+
+.photo_comment_tips {
+    width: 100%;
+    margin-top: 22px;
+    margin-bottom: 30px;
+    text-align: center
+}
+
+.photo_comment_tips:after {
+    display: table;
+    clear: both
+}
+
+.photo_comment_tips li {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #868686
+}
+
+.photo_comment_tips li a {
+    padding: 0 6px;
+    display: inline-block;
+    cursor: default
+}
+
+.photo_comment_tips li i {
+    font-size: 14px
+}
+
+.comment_content_box {
+    width: 100%;
+    height: 100%;
+    max-height: 270px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px
+}
+
+.photo_comment_content .content_list_bar_range {
+    position: absolute;
+    right: 2px;
+    top: 0;
+    background: #ccc;
+    width: 8px;
+    height: 270px;
+    border-radius: 4px;
+    opacity: .4;
+    display: none
+}
+
+.comment_content_box .content_list_bar_range .content_list_bar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #868686;
+    width: 8px;
+    height: 120px;
+    border-radius: 4px
+}
+
+.photo_comment_content h4 {
+    width: 100%;
+    height: 27px;
+    border-bottom: 1px solid #eee;
+    color: #686868;
+    font-size: 14px
+}
+
+.comment_content_list {
+    overflow-y: auto;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    max-height: 270px
+}
+
+.comment_content_list li {
+    width: 100%;
+    height: 80px;
+    padding-top: 10px
+}
+
+.comment_content_list li:after {
+    display: block;
+    clear: both
+}
+
+.pic_content_list_headimg {
+    float: left;
+    width: 80px;
+    height: 80px
+}
+
+.content_list_headimg_a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    border-radius: 30px;
+    overflow: hidden
+}
+
+.comment_content_list li dl {
+    float: left
+}
+
+.comment_content_list li dl dt,
+.comment_content_list li dl dt a {
+    color: #414141;
+    font-size: 14px;
+    height: 24px;
+    line-height: 24px;
+    font-weight: 700
+}
+
+.comment_respond_box {
+    position: relative;
+    float: left;
+    width: 676px;
+    height: 30px;
+    padding: 17px 20px;
+    background: #f5f5f5;
+    margin-top: 16px;
+    border: 1px solid #eee
+}
+
+.comment_respond_textarea {
+    float: left;
+    width: 580px;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 12px;
+    border: 1px solid #dbd5d5;
+    color: #a8a8a8;
+    line-height: 30px;
+    background: #fff
+}
+
+.comment_respond_textarea .resend_sb {
+    float: left
+}
+
+.resend_sb a {
+    font-size: 12px;
+    color: #414141
+}
+
+.resend_sb a span {
+    color: #5a7f88
+}
+
+.comment_respond_box button {
+    float: right;
+    width: 70px;
+    height: 30px;
+    color: #fff;
+    border: none;
+    cursor: pointer
+}
+
+.comment_respond_textarea textarea {
+    float: left;
+    min-width: 80%;
+    color: #a8a8a8;
+    padding: 8px 0;
+    height: 14px;
+    line-height: 14px;
+    border: none;
+    white-space: nowrap;
+    word-wrap: break-word;
+    resize: none;
+    overflow: hidden;
+    outline: 0
+}
+
+.comment_content_list li dl dt span {
+    color: #b6b3ad;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 400
+}
+
+.comment_content_list li dl dd {
+    color: #686868;
+    font-size: 12px;
+    margin-top: 5px;
+    line-height: 20px;
+    width: 466px
+}
+
+.comment_content_input {
+    width: 760px;
+    position: relative
+}
+
+.comment_content_input:after {
+    display: block;
+    clear: both
+}
+
+.comment_content_input textarea {
+    float: left;
+    width: 660px;
+    padding-left: 10px;
+    font-size: 14px;
+    border: 1px solid #dbd5d5;
+    color: #a8a8a8;
+    height: 36px;
+    line-height: 36px;
+    word-wrap: break-word;
+    resize: none;
+    overflow: hidden;
+    outline: 0
+}
+
+.comment_content_input textarea:hover {
+    border: 1px solid #ff5367
+}
+
+.resend_sb {
+    display: inline-block;
+    color: #a8a8a8;
+    font-size: 14px;
+    padding-right: 5px
+}
+
+.comment_content_input textarea span a {
+    color: #dd2338
+}
+
+.comment_content_input button {
+    float: right;
+    width: 80px;
+    height: 36px;
+    color: #fff;
+    border: none;
+    cursor: pointer
+}
+
+.comment_content_input button:hover {
+    background: #ff5367
+}
+
+.content_list_resend {
+    float: right;
+    margin: 12px 20px 0 0;
+    height: 14px;
+    line-height: 13px;
+    width: 24px;
+    font-size: 12px;
+    color: #b6b3ad;
+    padding-left: 25px;
+    background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/-100px -2000px no-repeat;
+    cursor: pointer
+}
+
+.content_list_resend:hover {
+    color: #868686;
+    background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/-150px -2000px no-repeat
+}
+
+.big_photo_maylike {
+    background: #fff;
+    padding-bottom: 20px;
+    margin-top: 26px;
+    padding-left: 35px;
+    border-radius: 2px
+}
+
+.big_photo_maylike h4 {
+    color: #868686;
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 400
+}
+
+.copyright,
+.wechat_box span {
+    left: 0;
+    color: #fff;
+    font-size: 12px
+}
+
+.photo_maylike_imgbox:after {
+    display: block;
+    clear: both
+}
+
+.photo_maylike_imgbox a {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 0 10px 10px 0;
+    border-radius: 2px;
+    overflow: hidden
+}
+
+.photo_maylike_imgbox a img:hover {
+    opacity: .6;
+    filter: alpha(opacity=60)
+}
+
+.big_main_right {
+    padding-top: 22px;
+    width: 240px;
+    float: left;
+    background: #FFF;
+    border-radius: 2px
+}
+
+.main_right_title:after {
+    display: block;
+    clear: both
+}
+
+.big_main_right span {
+    width: 75px;
+    height: 20px;
+    line-height: 20px;
+    color: #868686;
+    font-size: 12px;
+    text-align: center;
+    margin: 0 auto;
+    display: block
+}
+
+.main_right_titlea {
+    color: #393939;
+    width: 220px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    margin: 5px auto 0;
+    display: block;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.main_right_titlea:hover {
+    color: #dd2338
+}
+
+.main_right_imgbox {
+    margin-top: 18px
+}
+
+.main_right_imgbox:after {
+    display: block;
+    clear: both
+}
+
+.userhead,
+.username {
+    display: inline-block
+}
+
+.main_right_imgbox a {
+    width: 80px;
+    height: 80px;
+    float: left;
+    opacity: .6;
+    filter: alpha(opacity=40)
+}
+
+.main_right_imgbox a:hover {
+    opacity: 1;
+    filter: alpha(opacity=100)
+}
+
+.main_right_foot {
+    height: 53px;
+    padding-top: 17px;
+    text-align: center
+}
+
+.userhead {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%
+}
+
+.username {
+    margin-left: 11px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 15px;
+    color: #868686
+}
+
+#red_reply,
+.username:hover {
+    color: #dd2338
+}
+
+.black_bac_close {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/0 -900px no-repeat;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    z-index: 101
+}
+
+.tab_buttons_left:before,
+.tab_buttons_right:before {
+    left: -9px;
+    top: -14px;
+    height: 56px;
+    width: 80px;
+    border-radius: 10px
+}
+
+.black_bac_close:hover {
+    background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/-50px -900px no-repeat
+}
+
+#red_reply {
+    font-size: 14px;
+    position: absolute;
+    top: 10px;
+    left: -60px;
+    cursor: pointer;
+    display: none;
+    width: 60px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+#red_reply:hover {
+    color: #b2aeae;
+    text-decoration: line-through
+}
+
+i.like-select {
+    background: url(bigPic_spirite.png)/*tpa=http://paiwo.co/static/images/bigPic_spirite.png*/0 -64px no-repeat
+}
+
+i.favorite-select {
+    background: url(bigPic_spirite.png)/*tpa=http://paiwo.co/static/images/bigPic_spirite.png*/0 -46px no-repeat
+}
+
+.big_pic_shadow {
+    width: 100%;
+    height: 100%
+}
+
+.big_photo_box .loading_now {
+    display: block;
+    width: 100%;
+    height: 574px;
+    position: relative
+}
+
+.big_photo_box .loading_now .rotate {
+    width: 30px;
+    height: 30px;
+    background: #333;
+    top: 50%;
+    position: absolute;
+    margin: -15px 0 0 -15px;
+    left: 50%;
+    -webkit-animation: rotateloading 1.2s infinite ease-in-out;
+    animation: rotateloading 1.2s infinite ease-in-out
+}
+
+@-webkit-keyframes rotateloading {
+    0% {
+        -webkit-transform: perspective(120px)
+    }
+    50% {
+        -webkit-transform: perspective(120px)rotateY(180deg)
+    }
+    100% {
+        -webkit-transform: perspective(120px)rotateY(180deg)rotateX(180deg)
+    }
+}
+
+@keyframes rotateloading {
+    0% {
+        transform: perspective(120px)rotateX(0)rotateY(0);
+        -webkit-transform: perspective(120px)rotateX(0)rotateY(0)
+    }
+    50% {
+        transform: perspective(120px)rotateX(-180deg)rotateY(0);
+        -webkit-transform: perspective(120px)rotateX(-180deg)rotateY(0)
+    }
+    100% {
+        transform: perspective(120px)rotateX(-180deg)rotateY(-180deg);
+        -webkit-transform: perspective(120px)rotateX(-180deg)rotateY(-180deg)
+    }
+}
+
+#targeta {
+    display: none
+}
+
+.comment_tab_copyright i {
+    background-image: url(upload_pg.png)/*tpa=http://paiwo.co/static/images/upload_pg.png*/;
+    background-repeat: no-repeat;
+    float: left;
+    height: 20px;
+    margin-right: 5px;
+    width: 16px;
+    cursor: auto
+}
+
+.comment_tab_copyright span {
+    cursor: pointer;
+    float: right;
+    overflow: hidden;
+    height: 18px
+}
+
+.comment_tab_copyright .type1 {
+    background-position: -102px 0
+}
+
+.comment_tab_copyright .type2 {
+    background-position: -62px 0
+}
+
+.comment_tab_copyright .type3 {
+    background-position: -3px 0
+}
+
+.comment_tab_copyright .type4 {
+    background-position: -23px 0
+}
+
+.comment_tab_copyright .type5 {
+    background-position: -43px 0
+}
+
+.comment_tab_copyright .type6 {
+    background-position: -82px 0
+}
+
+.comment_tab_copyright t1,
+.comment_tab_copyright t2 {
+    width: 16px
+}
+
+.comment_tab_copyright t3,
+.comment_tab_copyright t4 {
+    width: 48px
+}
+
+.comment_tab_copyright t5,
+.comment_tab_copyright t6,
+.comment_tab_copyright t7 {
+    width: 32px
+}
+
+@-webkit-keyframes showPanel {
+    0% {
+        -webkit-transform: scale(.75);
+        opacity: 0
+    }
+    50% {
+        -webkit-transform: scale(1.05);
+        opacity: 1
+    }
+    100% {
+        -webkit-transform: scale(1);
+        opacity: 1
+    }
+}
+
+@keyframes showPanel {
+    0% {
+        -webkit-transform: scale(.75);
+        transform: scale(.75);
+        opacity: 0
+    }
+    50% {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+        opacity: 1
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1
+    }
+}
+
+.wechat_box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .8);
+    z-index: 102;
+    visibility: hidden
+}
+
+.wechat_main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    text-align: center;
+    margin: -100px 0 0 -100px
+}
+
+.albumphoto.curalbum,
+.albumphoto.curalbum img {
+    width: 78px;
+    height: 78px
+}
+
+.wechat_box span {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    margin-top: -130px
+}
+
+.wechat_box.active {
+    opacity: 1;
+    -webkit-animation: showPanel .5s ease;
+    animation: showPanel .5s ease-in
+}
+
+.tab_buttons_left.active:before,
+.tab_buttons_right.active:before {
+    -webkit-animation: anim-moema .3s forwards;
+    animation: anim-moema .3s forwards
+}
+
+.mouse_left {
+    cursor: url(arrow-left.cur)/*tpa=http://paiwo.co/static/images/svg-icon/arrow-left.cur*/, auto
+}
+
+.mouse_right {
+    cursor: url(arrow-right.cur)/*tpa=http://paiwo.co/static/images/svg-icon/arrow-right.cur*/, auto
+}
+
+.photo_comment_content:after {
+    content: '';
+    display: block;
+    clear: both
+}
+
+.black_bac .content_list_resend,
+.copyright {
+    display: none
+}
+
+.albumphoto.curalbum {
+    opacity: 1;
+    border: 1px solid #414141
+}
+
+.copyright {
+    position: absolute;
+    top: 0;
+    padding: 0 6px;
+    height: 24px;
+    line-height: 24px;
+    background: rgba(0, 0, 0, .8)
+}
+
+.tab_buttons_left:before {
+    content: '';
+    position: absolute;
+    background: #ff475c;
+    z-index: 2;
+    z-index: -1;
+    opacity: .4;
+    -webkit-transform: scale3d(.8, .5, 1);
+    -ms-transform: scale3d(.8, .5, 1);
+    transform: scale3d(.8, .5, 1)
+}
+
+.tab_buttons_left.active:before {
+    z-index: 2
+}
+
+@-webkit-keyframes anim-moema {
+    to {
+        opacity: 0;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1)
+    }
+}
+
+@keyframes anim-moema {
+    to {
+        opacity: 0;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1)
+    }
+}
+
+.tab_buttons_right:before {
+    content: '';
+    position: absolute;
+    background: #414141;
+    z-index: 2;
+    z-index: -1;
+    opacity: .4;
+    -webkit-transform: scale3d(.8, .5, 1);
+    -ms-transform: scale3d(.8, .5, 1);
+    transform: scale3d(.8, .5, 1)
+}
+
+.tab_buttons_right.active:before {
+    z-index: 2
+}
+
+@-webkit-keyframes anim-moema {
+    to {
+        opacity: 0;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1)
+    }
+}
+
+@keyframes anim-moema {
+    to {
+        opacity: 0;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1)
+    }
+}
+
+.filter {
+    width: 100%;
+    height: 100%;
+    filter: blur(5px);
+    -webkit-filter: blur(5px)
+}
+
+.store_box {
+    width: 610px;
+    height: 260px;
+    box-shadow: 0 0 5px 1px rgba(150, 150, 150, .3);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -130px 0 0 -305px;
+    background: #FFF;
+    z-index: 999;
+    border-radius: 2px
+}
+
+.store_album_input,
+.store_album_input_none,
+.store_album_select {
+    box-shadow: 0 0 2px 1px rgba(150, 150, 150, .3)
+}
+
+.store_title {
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid #eee;
+    padding-top: 9px;
+    text-align: center
+}
+
+.store_contet {
+    padding: 33px 0 40px 41px;
+    height: 144px;
+    position: relative
+}
+
+.store_album {
+    float: left;
+    width: 144px;
+    height: 144px;
+    border-radius: 2px;
+    margin-right: 35px
+}
+
+.store_album_selected {
+    position: relative;
+    float: left
+}
+
+.store_album_input {
+    width: 315px;
+    padding-right: 26px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.store_album_input_none {
+    border-radius: 2px;
+    width: 357px;
+    color: #414141;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid #c6c6c6;
+    height: 34px
+}
+
+.store_box .store_album_input_none {
+    background: #ff475c;
+    text-align: center;
+    border: 1px solid #dd2338;
+    display: none;
+    color: #fff;
+    font-size: 16px
+}
+
+.store_album_select {
+    position: absolute;
+    top: -8px;
+    left: 218px;
+    width: 345px;
+    height: 199px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 6px 7px 0 8px;
+    border: 1px solid #c6c6c6;
+    border-radius: 5px;
+    background: #FFF;
+    z-index: 99;
+    display: none
+}
+
+.store_album_select li,
+.store_select_li_cur {
+    padding-left: 10px;
+    list-style: none;
+    height: 26px;
+    line-height: 26px;
+    border: 1px solid #fff;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 14px;
+    color: #757575;
+    cursor: pointer;
+    width: 315px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.store_box .store_select_li_cur {
+    background: #ff475c;
+    color: #fff;
+    height: 26px;
+    border: 1px solid #dd2338;
+    border-radius: 5px
+}
+
+.store_box .store_select_li_cur:hover {
+    background: #ff475c;
+    border: 1px solid #dd2338;
+    border-radius: 5px
+}
+
+.store_album_select li:hover {
+    background: #f3f2f2;
+    border: 1px solid #f3f2f2;
+    border-radius: 5px
+}
+
+.store_select_text {
+    width: 240px;
+    height: 28px;
+    color: #aeaeae;
+    border: 1px solid #dfdede;
+    border-radius: 3px;
+    background: #f7f7f6;
+    padding-left: 8px;
+    margin-right: 15px
+}
+
+.store_select_button,
+.store_select_button_none {
+    width: 58px;
+    height: 28px;
+    border: 1px solid #d3d2d2;
+    border-radius: 2px;
+    font-size: 14px;
+    cursor: pointer
+}
+
+.store_select_button {
+    color: #686868;
+    background: #fff
+}
+
+.store_select_button_none {
+    color: #b6b3aa;
+    background: #f7f7f6;
+    cursor: pointer
+}
+
+.store_album_button {
+    position: absolute;
+    right: 26px;
+    bottom: 10px;
+    width: 180px;
+    margin-bottom: 28px
+}
+
+.store_album_button button {
+    display: inline-block
+}
+
+.store_button_submit {
+    margin-right: 12px
+}
+
+.search_dou,
+.search_photo,
+.search_photog {
+    border-right: 1px solid #b6b3ad
+}
+
+.photo_section_box:after,
+.search_pg_photobox:after,
+.search_pg_sex:after,
+section div:after {
+    content: ""
+}
+
+.photog_des,
+.search_pg_photobox dl dd {
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.photo_fixbox a {
+    color: #b6b3ad;
+    padding-left: 10px;
+    float: left
+}
+
+.search_main {
+    width: 1190px;
+    margin: 0 auto;
+    background: #fff;
+    padding-bottom: 54px
+}
+
+.search_title {
+    width: 100%;
+    height: 20px;
+    padding-top: 24px;
+    margin-bottom: 20px;
+    text-align: center
+}
+
+.search_title h3 {
+    display: inline-block;
+    padding: 0 33px;
+    height: 20px;
+    line-height: 20px;
+    color: #8a8880;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    cursor: pointer
+}
+
+h3.title-select {
+    color: #414141
+}
+
+.search_photo {
+    border-left: 1px solid #b6b3ad
+}
+
+.search_pg_button {
+    width: 64px;
+    height: 24px;
+    margin: 20px auto 30px;
+    position: relative;
+    cursor: pointer;
+    display: none
+}
+
+.search_pg_button span {
+    font-size: 14px;
+    color: #6d6d6d;
+    height: 24px;
+    line-height: 24px
+}
+
+.search_pg_button a {
+    width: 22px;
+    height: 22px;
+    border: 1px dotted #f0f0f0;
+    border-radius: 12px;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.search_pg_button_i,
+.search_pg_button_i_hover {
+    position: absolute;
+    width: 10px;
+    height: 6px;
+    top: 50%;
+    left: 50%;
+    margin: -3px 0 0 -5px;
+    background-position: 0 -2100px;
+    background-repeat: no-repeat;
+    background-image: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/
+}
+
+.search_pg_button .search_pg_button_i_hover {
+    background-position: -50px -2100px
+}
+
+.search_pg_inputs {
+    height: 0;
+    width: auto;
+    margin-left: 100px;
+    display: none;
+    opacity: 0;
+    filter: alpha(opacity=0)
+}
+
+.search_main .search_pg_mix {
+    color: #686868
+}
+
+section div {
+    border: 1px solid #dbd5d5;
+    float: left;
+    color: #b6b3ad;
+    font-size: 14px;
+    height: 38px;
+    line-height: 36px;
+    margin-right: 10px;
+    padding: 0 40px 0 14px;
+    position: relative;
+    text-align: left;
+    min-width: 68px;
+    cursor: pointer
+}
+
+section div:after {
+    border-color: #b6b3ad #fff #fff;
+    border-style: solid;
+    border-width: 8px;
+    height: 0;
+    position: absolute;
+    right: 12px;
+    top: 15px;
+    width: 0
+}
+
+section div dl {
+    height: 150px;
+    left: -1px;
+    overflow-y: auto;
+    padding-left: 16px;
+    position: absolute;
+    top: 37px;
+    width: 106px;
+    z-index: 55;
+    background: #fff;
+    border: 1px solid #ff5367;
+    display: none
+}
+
+section div dl dd {
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #686868
+}
+
+.search_pg_mix a {
+    color: #414141
+}
+
+.infor_ul_sexchoose {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 7px;
+    position: relative;
+    text-align: center;
+    width: 50px;
+    border: none
+}
+
+.infor_ul_sexchoose button {
+    background: #fff;
+    border: 2px solid #414141;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 20px;
+    left: -8px;
+    margin-right: 5px;
+    outline: 0;
+    position: absolute;
+    text-align: center;
+    top: 9px;
+    width: 20px
+}
+
+.search_pg_sex:after {
+    display: table;
+    clear: both
+}
+
+.infor_ul_sexchoose u {
+    text-decoration: none;
+    color: #686868
+}
+
+.infor_ul_sexchoose button i {
+    border-radius: 5px;
+    display: none;
+    height: 10px;
+    width: 10px;
+    background: #414141
+}
+
+.search_pg_photobox {
+    width: 1190px;
+    margin: 18px auto 0
+}
+
+.search_pg_photobox:after {
+    display: table;
+    clear: both
+}
+
+.search_pg_photobox li {
+    width: 269px;
+    height: 79px;
+    margin-bottom: 20px;
+    padding: 20px 0 0 12px;
+    float: left;
+    position: relative
+}
+
+.search_pg_photobox li:nth-child(3n) {
+    margin-right: 0
+}
+
+.search_pg_head_img {
+    width: 60px;
+    height: 60px;
+    float: left
+}
+
+.search_pg_head_img img {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    overflow: hidden
+}
+
+.search_pg_photobox dl {
+    width: 134px;
+    padding-left: 10px;
+    height: 49px;
+    margin: 7px 0 0 7px;
+    float: left
+}
+
+.search_pg_photobox dl dt {
+    height: 15px;
+    line-height: 15px;
+    margin-bottom: 6px
+}
+
+.search_pg_photobox dl dt a {
+    color: #686868;
+    font-size: 14px;
+    width: auto;
+    padding-right: 5px;
+    display: inline-block
+}
+
+.search_pg_photobox dl dd {
+    font-size: 12px;
+    height: 18px;
+    line-height: 18px;
+    color: #b6b3ad;
+    width: 156px;
+    overflow: hidden
+}
+
+.search_mix_section .photog_add {
+    text-align: center
+}
+
+.photog_add,
+.photog_added_2,
+.photog_added_4 {
+    position: absolute;
+    left: 88px;
+    bottom: 15px;
+    width: 78px;
+    height: 22px;
+    border: 1px solid #eee;
+    color: #414141;
+    font-size: 12px;
+    text-align: left;
+    line-height: 22px;
+    background-color: #fff
+}
+
+.photog_add:hover {
+    border-color: #414141
+}
+
+.search_mix_section .search_showall,
+.search_mix_section .search_showall_right {
+    position: absolute;
+    top: 18px;
+    right: -5px;
+    margin-top: 0;
+    font-size: 14px;
+    color: #8a8880
+}
+
+.search_showall:hover,
+.search_showall_right:hover {
+    color: #d22
+}
+
+.search_mix_section .search_showall2 {
+    position: absolute;
+    top: 0;
+    right: -5px;
+    margin-top: 0;
+    font-size: 14px;
+    color: #8a8880
+}
+
+.search_showall2:hover {
+    color: #d22
+}
+
+.search_footer {
+    font-size: 14px;
+    color: #757575;
+    width: 70px;
+    height: 18px;
+    line-height: 18px;
+    display: block;
+    margin: 28px auto 0
+}
+
+.photo_fixbox,
+.search_footer span {
+    color: #b6b3ad
+}
+
+.photo_section_box {
+    width: 1150px;
+    margin: 25px auto 0
+}
+
+.photo_section_box:after {
+    display: table;
+    clear: both
+}
+
+.photo_section_box li {
+    width: 280px;
+    height: 280px;
+    margin: 0 10px 10px 0;
+    float: left;
+    position: relative;
+    cursor: pointer
+}
+
+.photo_section_box li:nth-child(4n) {
+    margin-right: 0
+}
+
+.photo_fixbox {
+    position: absolute;
+    bottom: -36px;
+    left: 0;
+    height: 36px;
+    line-height: 36px;
+    width: 100%;
+    background: #fff;
+    font-size: 12px;
+    cursor: auto
+}
+
+.photo_fixbox img {
+    float: right;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-top: 11px
+}
+
+.photo_fixbox_like,
+.photo_fixbox_liked {
+    width: 20px;
+    height: 16px;
+    margin-right: 10px
+}
+
+.photo_liked {
+    position: absolute;
+    bottom: 8px;
+    right: 10px;
+    margin: 0
+}
+
+.photo_fixbox button {
+    float: right;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-top: 11px
+}
+
+.photo_fixbox_like {
+    background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/-100px -500px no-repeat
+}
+
+.photo_fixbox_liked {
+    background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/-100px -550px no-repeat
+}
+
+.photo_fixbox_like:hover {
+    background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/-100px -600px no-repeat
+}
+
+.photo_fixbox_ding,
+.photo_fixbox_dinged {
+    width: 10px;
+    height: 20px;
+    margin-right: 20px
+}
+
+.photo_fixbox_ding {
+    background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/0 -500px no-repeat
+}
+
+.photo_fixbox_dinged {
+    background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/0 -550px no-repeat
+}
+
+.photo_fixbox_ding:hover {
+    background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/0 -600px no-repeat
+}
+
+.mix_section_photobox_box {
+    width: 900px;
+    float: left
+}
+
+.search_main .mix_section_photobox {
+    width: 100%;
+    margin-top: 0;
+    padding-top: 5px
+}
+
+.mix_section_photog {
+    float: right;
+    width: 280px;
+    margin: 0
+}
+
+.dou_section_box h4,
+.mix_section_photobox_box h4,
+.search_main .mix_section_photog h4 {
+    height: 40px;
+    line-height: 42px;
+    font-size: 16px;
+    text-align: left;
+    color: #414141;
+    position: relative
+}
+
+.dou_section_box h4 span,
+.mix_section_photobox_box h4 span,
+.search_main .mix_section_photog h4 span {
+    color: #8a8880;
+    font-size: 14px;
+    margin-left: 5px
+}
+
+.mix_section_photobox li {
+    margin: 0 20px 20px 0;
+    float: left
+}
+
+.search_main .mix_section_photog h4 span {
+    font-size: 14px;
+    color: #8a8880;
+    margin-left: 5px
+}
+
+.mix_section_photobox li:nth-child(3n) {
+    margin-right: 0
+}
+
+.photo_block {
+    overflow: hidden;
+    position: relative;
+    cursor: pointer
+}
+
+.search-none {
+    width: 327px;
+    height: 108px;
+    margin: 55px auto 0;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    display: none
+}
+
+.search-none-right {
+    width: 237px
+}
+
+.search-none h5 {
+    color: #414141;
+    text-align: center
+}
+
+.search-none span {
+    font-size: 12px;
+    color: #8a8880;
+    display: block;
+    margin-top: 10px;
+    text-align: center
+}
+
+.search-none p {
+    width: 185px;
+    height: 18px;
+    background: #fff;
+    position: absolute;
+    bottom: -8px;
+    left: 70px;
+    text-align: center
+}
+
+.alert_body,
+.search-sim {
+    left: 0;
+    width: 100%;
+    position: fixed
+}
+
+.search-none-right p {
+    left: 30px
+}
+
+.alert_body {
+    background-color: rgba(0, 0, 0, .5);
+    height: 100%;
+    top: 0;
+    z-index: 150
+}
+
+.search-sim {
+    top: -80px;
+    z-index: 97;
+    height: 80px;
+    line-height: 80px;
+    background: rgba(33, 33, 33, .9);
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 0;
+    -webkit-transition: all .4s;
+    transition: all .4s
+}
+
+.search-sim.active {
+    -webkit-transform: translate3d(0, 120px, 0);
+    -ms-transform: translate3d(0, 120px, 0);
+    transform: translate3d(0, 120px, 0);
+    opacity: 1
+}
+
+.search-sim.moveIn {
+    -webkit-transform: translate(240px, 120px);
+    -ms-transform: translate(240px, 120px);
+    transform: translate(240px, 120px);
+    -webkit-transition: -webkit-transform .5s;
+    transition: transform .5s
+}
+
+.search-sim.moveIn,
+.search-sim.moveOut {
+    -ms-transition: -ms-transform .5s;
+    -webkit-transition: -webkit-transform .5s
+}
+
+.search-sim.moveOut {
+    -webkit-transform: translateX(0, 120px);
+    -ms-transform: translateX(0, 120px);
+    transform: translateX(0, 120px);
+    -webkit-transition: -webkit-transform .5s;
+    transition: transform .5s
+}
+
+.search-sim .search-box {
+    margin-top: 0
+}
+
+.search-sim .search-box input {
+    background: rgba(65, 65, 65, .8)
+}
+
+.search-sim .search-box a {
+    top: 18px;
+    right: 25px
+}
+
+.search-sim .search-word {
+    top: 17px
+}
+
+.search-normal .search-word {
+    top: 0;
+    background: #f2f2f2;
+    border: 1px solid #d6d8d0
+}
+
+.search-normal .search-box {
+    margin: 14px auto 20px
+}
+
+.search-normal .search-mag {
+    top: 0
+}
+
+.loading {
+    width: 100%;
+    height: 30px;
+    padding-top: 30px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 20px;
+    display: none
+}
+
+.hot_num {
+    float: right;
+    display: block;
+    height: 16px;
+    line-height: 16px;
+    margin-top: 11px;
+    border-right: 1px dotted #b6b3aa;
+    padding-right: 10px;
+    margin-right: 10px
+}
+
+.page .page-pre,
+.studio-friend-care {
+    border-right: 1px solid #d8d6d0
+}
+
+.hot_num i {
+    float: left;
+    margin-right: 5px;
+    width: 13px;
+    height: 16px;
+    background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/-600px -50px no-repeat
+}
+
+#dapgul,
+#dapul {
+    padding-top: 20px
+}
+
+#dapgul li {
+    border: 1px solid #eee;
+    background-color: #fafafa;
+    height: 93px;
+    margin-bottom: 0;
+    padding-top: 25px;
+    border-bottom: none
+}
+
+#dapgul li:last-child,
+.studio-friend-list,
+.studio-friend-tit {
+    border-bottom: 1px solid #eee
+}
+
+.photog_add i {
+    float: left;
+    width: 7px;
+    height: 7px;
+    margin: 7px 0 0 10px;
+    background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/0 -250px no-repeat
+}
+
+.photog_added_4 i {
+    float: left;
+    width: 10px;
+    height: 8px;
+    margin: 6px 0 0 10px;
+    background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/-150px -250px no-repeat
+}
+
+.photog_added_2 i {
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin: 8px 5px 0 10px;
+    background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/-100px -250px no-repeat
+}
+
+.dou_section_box {
+    margin-top: 30px
+}
+
+.dou_section_ul {
+    padding-top: 20px
+}
+
+.dou_section_ul li {
+    margin: 0 20px;
+    position: relative;
+    width: 280px;
+    height: 254px;
+    overflow: hidden
+}
+
+.photo_fixbox_big {
+    height: 100px;
+    position: absolute;
+    background-color: #fff
+}
+
+.photo_fixbox_big .photo_fixbox {
+    position: static
+}
+
+.photo_fixbox_big h3 {
+    line-height: 42px;
+    color: #414141;
+    font-size: 14px;
+    text-align: left
+}
+
+.photo_fixbox_big>span {
+    font-size: 12px;
+    color: #8a8880;
+    width: 280px;
+    display: block;
+    line-height: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden
+}
+
+.dou_section_ul li:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-width: 15px;
+    border-style: solid;
+    border-color: #2dd888 #2dd888 transparent transparent;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.search_tips {
+    text-align: center;
+    padding-top: 10px
+}
+
+.search_tips a {
+    display: inline-block;
+    width: 94px;
+    height: 38px;
+    background-color: #ff475c;
+    border-radius: 5px;
+    margin-right: 6px;
+    position: relative;
+    color: #fff;
+    line-height: 38px;
+    text-align: center
+}
+
+.search_tips a span {
+    content: '';
+    position: absolute;
+    width: 94px;
+    height: 38px;
+    background: rgba(65, 65, 65, .4);
+    left: 0;
+    top: 0
+}
+
+.studio-con-friend {
+    width: 690px;
+    padding: 0 55px;
+    margin: 0 auto;
+    background: #fafafa;
+    border-width: 0 1px;
+    border-color: #f2f1f2;
+    border-style: solid;
+    box-shadow: 1px 2px 10px #f8f8f8
+}
+
+.studio-friend-tit {
+    width: 100%;
+    padding: 30px 0 10px
+}
+
+.studio-friend-tit ul {
+    width: 191px;
+    margin: 0 auto
+}
+
+.studio-friend-tit li {
+    float: left;
+    width: 95px;
+    line-height: 20px;
+    color: #8a8880;
+    font-size: 14px;
+    cursor: pointer
+}
+
+.studio-friend-tit .studio-friend-cur,
+.studio-friend-tit li:hover {
+    color: #414141;
+    font-weight: 700
+}
+
+.studio-friend-tit span {
+    float: left;
+    width: 45px;
+    text-align: right
+}
+
+.studio-friend-tit i {
+    float: left;
+    width: 50px;
+    text-align: center
+}
+
+.studio-friend-list {
+    width: 690px;
+    height: 76px;
+    padding: 11px 0;
+    margin: 0 auto
+}
+
+.studio-fri-ava {
+    float: left;
+    padding: 8px 0;
+    width: 60px;
+    height: 60px
+}
+
+.studio-fri-ava img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%
+}
+
+.studio-fri-info {
+    float: left;
+    margin-left: 24px
+}
+
+.studio-fri-iden {
+    height: 30px
+}
+
+.studio-fri-iden:after {
+    display: block;
+    clear: both;
+    content: ""
+}
+
+.page a,
+.page span,
+.page-no,
+.photog_des {
+    display: inline-block
+}
+
+.photog-name {
+    float: left;
+    color: #212121;
+    line-height: 30px
+}
+
+.photog-female,
+.photog-male {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 5px 0 0 8px;
+    background: url(spirit.svg)/*tpa=http://paiwo.co/static/images/spirit.svg*/no-repeat
+}
+
+.photog-male {
+    background-position: -97px -797px
+}
+
+.photog-female {
+    background-position: 5px -799px
+}
+
+.photog-confirm {
+    position: relative;
+    float: left;
+    margin: 4px 0 0 8px;
+    width: 38px;
+    height: 24px;
+    background: #d1c694;
+    font-size: 12px;
+    line-height: 24px;
+    color: #fff;
+    border-radius: 10px;
+    padding-left: 24px
+}
+
+.photog-confirm i {
+    position: absolute;
+    left: 6px;
+    top: 4px;
+    width: 16px;
+    height: 16px
+}
+
+.studio-fri-place span {
+    line-height: 22px;
+    font-size: 12px;
+    color: #8a8880;
+    margin-right: 4px
+}
+
+.studio-fri-box {
+    float: right
+}
+
+.studio-fri-box a {
+    float: left;
+    border: 1px solid #d8d6d0;
+    height: 28px;
+    line-height: 28px;
+    font-size: 12px;
+    color: #414141;
+    text-align: center
+}
+
+.studio-fri-box a:nth-child(2):hover {
+    color: #fff;
+    background: #414141
+}
+
+.studio-fri-mess {
+    width: 50px
+}
+
+.page {
+    margin-top: 10px;
+    text-align: center;
+    padding-bottom: 10px
+}
+
+.page a,
+.page span {
+    font-size: 12px;
+    color: #414141;
+    line-height: 20px;
+    padding: 0 9px;
+    margin-right: 8px
+}
+
+.page a:hover {
+    color: #5a7f88
+}
+
+.page .page-cur {
+    background: #eee
+}
+
+.page .page-pre {
+    cursor: pointer
+}
+
+.page .page-next {
+    border-left: 1px solid #d8d6d0;
+    cursor: pointer
+}
+
+.page .page-none {
+    color: #8a8880
+}
+
+#dcpgul {
+    margin-top: 20px
+}
+
+#dcpgul .photog_add,
+#dcpgul .photog_added_2,
+#dcpgul .photog_added_4 {
+    position: static;
+    margin-right: 7px
+}
+
+.photog_des {
+    font-size: 12px;
+    color: #414141;
+    width: 316px;
+    overflow: hidden
+}
+
+#dcpgul .photog_added_2 i {
+    margin-top: 10px
+}
+
+.section_activity_box {
+    width: 278px;
+    height: 120px;
+    background-color: #fafafa;
+    margin: 20px 0 33px
+}
+
+.section_activity_box img {
+    width: 114px;
+    height: 120px;
+    float: left;
+    overflow: hidden
+}
+
+.section_activity_box dl {
+    width: 130px;
+    padding: 12px 18px 0 14px;
+    height: 106px;
+    float: left;
+    border: 1px solid #eee
+}
+
+.section_activity_box dl dt {
+    height: 74px;
+    line-height: 24px
+}
+
+.section_activity_box dl dd {
+    height: 30px;
+    width: 140px;
+    line-height: 32px;
+    border-top: 1px solid #eee
+}
+
+.activity_span_left {
+    float: left;
+    font-size: 12px;
+    color: #8a8880;
+    padding-left: 18px;
+    position: relative
+}
+
+.activity_span_left i {
+    position: absolute;
+    top: 9px;
+    left: 0;
+    width: 12px;
+    height: 12px;
+    background: url(spirit2.svg)/*tpa=http://paiwo.co/static/images/spirit2.svg*/-300px -350px no-repeat
+}
+
+.activity_span_right {
+    float: right;
+    font-size: 12px
+}
